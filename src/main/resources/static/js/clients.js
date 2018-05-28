@@ -1,10 +1,10 @@
-var app = angular.module("photo_branches", [])
+var app = angular.module("photo", []);
 
 app.controller("AppCtrl", function ($http, $scope) {
 
-    $scope.clients = [];
+    $scope.entries = [];
     $http.get('/api/clients').then(function (response){
-        $scope.clients=response.data;
+        $scope.entries=response.data;
         console.log(response);
     });
     this.del_entry = function del(id) {
@@ -29,73 +29,52 @@ app.controller("AppCtrl", function ($http, $scope) {
         });
     };
 
-    this.insert_coach = function add() {
+    this.insert = function add() {
         var name = document.getElementById("Name").value;
-        var indexOfSportClub = document.getElementById("SportClub").selectedIndex;
-        var sportClubId = document.getElementById("SportClub").options[indexOfSportClub].value;
-        var isValid=true;
-        var regex=/^[А-ЯІ][а-яі']+\s[А-ЯІ]\.\s?[А-ЯІ]\.$/ ;
-        var errorMessage='Помилка: неправильні вхідні дані!\n';
-        if(!regex.test(name)){
-            errorMessage=errorMessage+'-невірний формат прізвища та ініціалів тренера;';
-            isValid=false;
-        }
-        if(isValid){
-            $http.get('/api/coach/insert?name='+name+'&sportClubId='+sportClubId).then(function (response){
-                window.location.reload();
-                window.alert('Тренера було успішно додано!');
-            });
-        }
-        else  window.alert(errorMessage);
+        var discountCard = document.getElementById("DiscountCard").value;
+        var branchIndex = document.getElementById("Branches").selectedIndex;
+        var branchId = document.getElementById("Branches").options[branchIndex].value;
 
+        $http.get('/api/coach/insert?name='+name+'&discountCard='+discountCard+'&branch='+branchId)
+            .then(function (response){
+            window.location.reload();
+            window.alert('Клієнта було успішно додано!');
+        });
     };
     var thisId;
 
-    this.start_update_coach = function upd(id,name,sportClubName) {
+    this.start_update_entry = function upd(id, name, discountCard, branchId) {
         thisId=id;
-        var  thisIndex;
-        var  thisName;
-        $http.get('/api/sport_club').then(function (response){
-            var sportClub = response.data;
-            var selector = document.getElementById("SportClubUPD");
+        var thisIndex;
+        $http.get('/api/branches').then(function (response){
+            var branches = response.data;
+            var selector = document.getElementById("WorkerUPD");
             $(selector).empty();
-            for (var i = 0; i < sportClub.length; i++) {
+            for (var i = 0; i < branches.length; i++) {
                 var option = document.createElement("option");
-                option.text = sportClub[i].name;
-                option.value = sportClub[i].id;
-                if(sportClub[i].name==sportClubName)
+                option.text = branches[i].name;
+                option.value = branches[i].id;
+                if(branches[i].id === branchId)
                 {
                     thisIndex = i;
-                    thisName=sportClub[i].name;
 
                 }
                 selector.add(option);
             }
 
-            document.getElementById("SportClubUPD").selectedIndex=thisIndex;
+            document.getElementById("BranchesUPD").selectedIndex=thisIndex;
         });
         document.getElementById("NameUPD").value=name;
-
+        document.getElementById("DiscountCardUPD").value=discountCard;
     };
-    this.update_coach = function upd() {
+    this.update_entry = function upd() {
         var name = document.getElementById("NameUPD").value;
-        var indexOfSportClub = document.getElementById("SportClubUPD").selectedIndex;
-        var sportClubId = document.getElementById("SportClubUPD").options[indexOfSportClub].value;
-        //var gender = document.getElementById("GenderUPD").value;
+        var discountCard = document.getElementById("DiscountCardUPD").value;
+        var branchIndex = document.getElementById("BranchUPD").selectedIndex;
+        var branchId = document.getElementById("BranchUPD").options[branchIndex].value;
 
-        var isValid=true;
-        var regex=/^[А-ЯІ][а-яі']+\s[А-ЯІ]\.\s?[А-ЯІ]\.$/ ;
-        var errorMessage='Помилка: неправильні вхідні дані!\n';
-        if(!regex.test(name)){
-            errorMessage=errorMessage+'-невірний формат прізвища та ініціалів тренера;';
-            isValid=false;
-        }
-        if(isValid) {
-            $http.get('/api/coach/update?id=' + thisId + '&name=' + name + '&sportClubId=' + sportClubId).then(function (response) {
-                window.location.reload();
-            });
-        }
-        else window.alert(errorMessage);
-
+        $http.get('/api/agreements/update?id='+thisId+'&name='+name+'&discountCard='+discountCard+'&branch='+branchId).then(function (response){
+            window.location.reload();
+        });
     };
 });

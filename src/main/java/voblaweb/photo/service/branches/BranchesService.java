@@ -29,6 +29,11 @@ public class BranchesService implements IBranchesService {
     }
 
     @Override
+    public Branches getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
     public void deleteById(int id) {
         repository.deleteById(id);
     }

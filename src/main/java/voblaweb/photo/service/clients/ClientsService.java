@@ -29,6 +29,11 @@ public class ClientsService implements IClientsService {
     }
 
     @Override
+    public Clients getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
     public void deleteById(int id) {
         repository.deleteById(id);
     }

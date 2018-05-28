@@ -1,6 +1,7 @@
 package voblaweb.photo.controller;
 
 import voblaweb.photo.model.Branches;
+import voblaweb.photo.service.branches.BranchesService;
 import voblaweb.photo.service.branches.IBranchesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -10,29 +11,37 @@ import voblaweb.photo.service.branches.IBranchesService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/branches")
+@RequestMapping("/api")
 public class BranchesController {
     @Autowired
-    IBranchesService branchesService;
+    BranchesService branchesService;
 
-    @RequestMapping("/get")
+    @RequestMapping("/branches")
     public List<Branches> getBranches(){
         return branchesService.getAll();
     }
 
-    @PostMapping("/insert")
-    public Branches insertCall(@RequestBody Branches branches) {
+    @RequestMapping("/branches/get")
+    public Branches getById(@RequestParam int id){
+        return branchesService.getById(id);
+    }
+
+    @RequestMapping("/branches/insert")
+    public Branches insertCall(@RequestParam String branchAddress, int branchAmountOfWorkplaces) {
+        Branches branches = new Branches(branchAddress, branchAmountOfWorkplaces);
         return branchesService.insert(branches);
     }
 
-    @RequestMapping("/update")
-    public Branches updateCall(@RequestBody Branches branches,@RequestParam("id") int id) {
+    @RequestMapping("/branches/update")
+    public Branches updateCall(@RequestParam int id, String branchAddress, int branchAmountOfWorkplaces) {
+        Branches branches = new Branches(branchAddress, branchAmountOfWorkplaces);
         branches.setBranchId(id);
+        System.out.println("In insertCall");
         return branchesService.update(branches);
     }
 
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        branchesService.deleteById((int)id);
+    @RequestMapping("/branches/del")
+    public void delCall(@RequestParam int id){
+        branchesService.deleteById(id);
     }
 }

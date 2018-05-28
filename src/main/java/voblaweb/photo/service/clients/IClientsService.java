@@ -8,5 +8,6 @@ public interface IClientsService {
     List<Clients> getAll();
     Clients insert(Clients clients);
     Clients update(Clients clients);
+    Clients getById(int id);
     void deleteById(int id);
 }

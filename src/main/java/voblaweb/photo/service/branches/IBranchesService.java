@@ -8,5 +8,6 @@ public interface IBranchesService {
     List<Branches> getAll();
     Branches insert(Branches branches);
     Branches update(Branches branches);
+    Branches getById(int id);
     void deleteById(int id);
 }

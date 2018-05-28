@@ -9,10 +9,11 @@ import javax.persistence.*;
 @EntityListeners(AuditingEntityListener.class)
 public class Clients {
 
-
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "client_id")
     private int clientId;
+    @Column(name = "client_name")
     private String clientName;
     private Boolean discountCard;
     @ManyToOne
