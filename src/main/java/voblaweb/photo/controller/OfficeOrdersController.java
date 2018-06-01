@@ -1,38 +1,57 @@
-package voblaweb.photo.controller;
-
-import voblaweb.photo.model.OfficeOrders;
-import voblaweb.photo.service.officeorders.IOfficeOrdersService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-import voblaweb.photo.model.OfficeOrders;
-import voblaweb.photo.service.officeorders.IOfficeOrdersService;
-
-import java.util.List;
-
-@RestController
-@RequestMapping("/office_orders")
-public class OfficeOrdersController {
-    @Autowired
-    IOfficeOrdersService officeOrdersService;
-
-    @RequestMapping("/get")
-    public List<OfficeOrders> getOfficeOrders(){
-        return officeOrdersService.getAll();
-    }
-
-    @PostMapping("/insert")
-    public OfficeOrders insertCall(@RequestBody OfficeOrders officeOrders) {
-        return officeOrdersService.insert(officeOrders);
-    }
-
-    @RequestMapping("/update")
-    public OfficeOrders updateCall(@RequestBody OfficeOrders officeOrders, @RequestParam("id") int id) {
-        officeOrders.setOfficeOrdersId(id);
-        return officeOrdersService.update(officeOrders);
-    }
-
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        officeOrdersService.deleteById((int)id);
-    }
-}
+//package voblaweb.photo.controller;
+//
+//import voblaweb.photo.model.Branches;
+//import voblaweb.photo.model.Kiosks;
+//import voblaweb.photo.model.OfficeOrders;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.web.bind.annotation.*;
+//import voblaweb.photo.model.PhotoGoods;
+//import voblaweb.photo.service.officeorders.OfficeOrdersService;
+//
+//import java.sql.Date;
+//import java.util.List;
+//
+//@RestController
+//@RequestMapping("/api")
+//public class OfficeOrdersController {
+//    @Autowired
+//    OfficeOrdersService service;
+//
+//    @RequestMapping("/office_orders")
+//    public List<OfficeOrders> getAll(){
+//        return service.getAll();
+//    }
+//
+//    @RequestMapping("/office_orders/get")
+//    public OfficeOrders getById(@RequestParam int id){
+//        return service.getById(id);
+//    }
+//
+//    @RequestMapping("/office_orders/insert")
+//    public OfficeOrders insert(@RequestParam int photoGoodId, int kiosksId, Date dateOfSupply, int amountOfGoods,
+//                               int price, Date dateOfSelling) {
+//        PhotoGoods photoGood = new PhotoGoods();
+//        photoGood.setId(photoGoodId);
+//        Kiosks kiosks = new Kiosks();
+//        kiosks.setId(kiosksId);
+//        OfficeOrders officeOrders = new OfficeOrders(photoGood, kiosks, dateOfSupply, amountOfGoods, price, dateOfSelling);
+//        return service.insert(officeOrders);
+//    }
+//
+//    @RequestMapping("/office_orders/update")
+//    public OfficeOrders updateCall(@RequestParam int photoGoodId, int kiosksId, Date dateOfSupply, int amountOfGoods,
+//                                   int price, Date dateOfSelling) {
+//        PhotoGoods photoGood = new PhotoGoods();
+//        photoGood.setId(photoGoodId);
+//        Kiosks kiosks = new Kiosks();
+//        kiosks.setId(kiosksId);
+//        OfficeOrders officeOrders = new OfficeOrders(photoGood, kiosks, dateOfSupply, amountOfGoods, price, dateOfSelling);
+//        officeOrders.setId(id);
+//        return service.update(officeOrders);
+//    }
+//
+//    @RequestMapping("/office_orders/del")
+//    public void delete(@RequestParam int id){
+//        service.delete(id);
+//    }
+//}

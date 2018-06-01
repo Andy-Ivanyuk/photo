@@ -11,21 +11,23 @@ import java.util.Date;
 public class OfficeOrders {
 
     @Id
-    @Column(name = "office_orders_id")
-    private int officeOrdersId;
-    @ManyToOne
-    private PhotoGoods photoGoodsPhotoGoodsId;
-    @ManyToOne
-    private Kiosks kiosksKioskId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "photoGoodId")
+    private PhotoGoods photoGoodId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "kioskId")
+    private Kiosks kioskId;
     private Date dateOfSupply;
     private int amountOfGoods;
     private int price;
     private Date dateOfSelling;
 
-    public OfficeOrders(PhotoGoods photoGoodsPhotoGoodsId, Kiosks kiosksKioskId, Date dateOfSupply,
-                        int amountOfGoods, int price, Date dateOfSelling) {
-        this.photoGoodsPhotoGoodsId = photoGoodsPhotoGoodsId;
-        this.kiosksKioskId = kiosksKioskId;
+    public OfficeOrders(PhotoGoods photoGoodId, Kiosks kioskId, Date dateOfSupply, int amountOfGoods,
+                        int price, Date dateOfSelling) {
+        this.photoGoodId = photoGoodId;
+        this.kioskId = kioskId;
         this.dateOfSupply = dateOfSupply;
         this.amountOfGoods = amountOfGoods;
         this.price = price;
@@ -35,28 +37,28 @@ public class OfficeOrders {
     public OfficeOrders() {
     }
 
-    public int getOfficeOrdersId() {
-        return officeOrdersId;
+    public int getId() {
+        return id;
     }
 
-    public void setOfficeOrdersId(int officeOrdersId) {
-        this.officeOrdersId = officeOrdersId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public PhotoGoods getPhotoGoodsPhotoGoodsId() {
-        return photoGoodsPhotoGoodsId;
+    public PhotoGoods getPhotoGoodId() {
+        return photoGoodId;
     }
 
-    public void setPhotoGoodsPhotoGoodsId(PhotoGoods photoGoodsPhotoGoodsId) {
-        this.photoGoodsPhotoGoodsId = photoGoodsPhotoGoodsId;
+    public void setPhotoGoodId(PhotoGoods photoGoodId) {
+        this.photoGoodId = photoGoodId;
     }
 
-    public Kiosks getKiosksKioskId() {
-        return kiosksKioskId;
+    public Kiosks getKioskId() {
+        return kioskId;
     }
 
-    public void setKiosksKioskId(Kiosks kiosksKioskId) {
-        this.kiosksKioskId = kiosksKioskId;
+    public void setKioskId(Kiosks kioskId) {
+        this.kioskId = kioskId;
     }
 
     public Date getDateOfSupply() {

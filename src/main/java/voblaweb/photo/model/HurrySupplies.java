@@ -11,27 +11,32 @@ import java.util.Date;
 public class HurrySupplies {
 
     @Id
-    @Column(name = "hurry_supplies_id")
-    private int hurrySuppliesId;
-    @ManyToOne
-    private TypeOfSupplies typeOfSuppliesTypeId;
-    @ManyToOne
-    private Branches branchesBranchId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private int price;
     private int amountOfPhotosPerFrame;
     private int totalAmountOfPhotos;
     private String format;
     private String paperType;
     private Date supplyDate;
-    private Boolean isDone;
-    @ManyToOne
-    private Clients clientsClientId;
+    private Boolean isDone;;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "branchId")
+    private Branches branchId;;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "clientId")
+    private Clients clientId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "typeOfSupplyId")
+    private TypeOfSupplies typeOfSupplyId;
 
-    public HurrySupplies(TypeOfSupplies typeOfSuppliesTypeId, Branches branchesBranchId, int price,
+    public HurrySupplies() {
+    }
+
+    public HurrySupplies(int price,
                          int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
-                         String paperType, Date supplyDate, Boolean isDone, Clients clientsClientId) {
-        this.typeOfSuppliesTypeId = typeOfSuppliesTypeId;
-        this.branchesBranchId = branchesBranchId;
+                         String paperType, Date supplyDate, Boolean isDone, Branches branchId,
+                         Clients clientId, TypeOfSupplies typeOfSupplyId) {
         this.price = price;
         this.amountOfPhotosPerFrame = amountOfPhotosPerFrame;
         this.totalAmountOfPhotos = totalAmountOfPhotos;
@@ -39,34 +44,17 @@ public class HurrySupplies {
         this.paperType = paperType;
         this.supplyDate = supplyDate;
         this.isDone = isDone;
-        this.clientsClientId = clientsClientId;
+        this.branchId = branchId;
+        this.clientId = clientId;
+        this.typeOfSupplyId = typeOfSupplyId;
     }
 
-    public HurrySupplies() {
+    public int getId() {
+        return id;
     }
 
-    public int getHurrySuppliesId() {
-        return hurrySuppliesId;
-    }
-
-    public void setHurrySuppliesId(int hurrySuppliesId) {
-        this.hurrySuppliesId = hurrySuppliesId;
-    }
-
-    public TypeOfSupplies getTypeOfSuppliesTypeId() {
-        return typeOfSuppliesTypeId;
-    }
-
-    public void setTypeOfSuppliesTypeId(TypeOfSupplies typeOfSuppliesTypeId) {
-        this.typeOfSuppliesTypeId = typeOfSuppliesTypeId;
-    }
-
-    public Branches getBranchesBranchId() {
-        return branchesBranchId;
-    }
-
-    public void setBranchesBranchId(Branches branchesBranchId) {
-        this.branchesBranchId = branchesBranchId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getPrice() {
@@ -125,11 +113,27 @@ public class HurrySupplies {
         isDone = done;
     }
 
-    public Clients getClientsClientId() {
-        return clientsClientId;
+    public Branches getBranchId() {
+        return branchId;
     }
 
-    public void setClientsClientId(Clients clientsClientId) {
-        this.clientsClientId = clientsClientId;
+    public void setBranchId(Branches branchId) {
+        this.branchId = branchId;
+    }
+
+    public Clients getClientId() {
+        return clientId;
+    }
+
+    public void setClientId(Clients clientId) {
+        this.clientId = clientId;
+    }
+
+    public TypeOfSupplies getTypeOfSupplyId() {
+        return typeOfSupplyId;
+    }
+
+    public void setTypeOfSupplyId(TypeOfSupplies typeOfSupplyId) {
+        this.typeOfSupplyId = typeOfSupplyId;
     }
 }

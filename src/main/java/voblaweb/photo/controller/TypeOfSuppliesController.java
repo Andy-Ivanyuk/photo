@@ -1,37 +1,43 @@
 package voblaweb.photo.controller;
 
 import voblaweb.photo.model.TypeOfSupplies;
-import voblaweb.photo.service.typeofsupplies.ITypeOfSuppliesServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import voblaweb.photo.model.TypeOfSupplies;
+import voblaweb.photo.service.typeofsupplies.TypeOfSuppliesServices;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/type_of_supplies")
+@RequestMapping("/api")
 public class TypeOfSuppliesController {
     @Autowired
-    ITypeOfSuppliesServices typeOfSuppliesService;
+    TypeOfSuppliesServices service;
 
-    @RequestMapping("/get")
-    public List<TypeOfSupplies> getTypeOfSupplies(){
-        return typeOfSuppliesService.getAll();
+    @RequestMapping("/type_of_supplies")
+    public List<TypeOfSupplies> getAll(){
+        return service.getAll();
     }
 
-    @PostMapping("/insert")
-    public TypeOfSupplies insertCall(@RequestBody TypeOfSupplies typeOfSupplies) {
-        return typeOfSuppliesService.insert(typeOfSupplies);
+    @RequestMapping("/type_of_supplies/get")
+    public TypeOfSupplies getById(@RequestParam int id){
+        return service.getById(id);
     }
 
-    @RequestMapping("/update")
-    public TypeOfSupplies updateCall(@RequestBody TypeOfSupplies typeOfSupplies,@RequestParam("id") int id) {
-        typeOfSupplies.setTypeId(id);
-        return typeOfSuppliesService.update(typeOfSupplies);
+    @RequestMapping("/type_of_supplies/insert")
+    public TypeOfSupplies insert(@RequestParam String name) {
+        TypeOfSupplies typeOfSupplies = new TypeOfSupplies(name);
+        return service.insert(typeOfSupplies);
     }
 
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        typeOfSuppliesService.deleteById((int)id);
+    @RequestMapping("/type_of_supplies/update")
+    public TypeOfSupplies updateCall(@RequestParam int id, String name) {
+        TypeOfSupplies typeOfSupplies = new TypeOfSupplies(name);
+        typeOfSupplies.setId(id);
+        return service.update(typeOfSupplies);
+    }
+
+    @RequestMapping("/type_of_supplies/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
     }
 }

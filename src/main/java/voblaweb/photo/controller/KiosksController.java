@@ -1,36 +1,48 @@
 package voblaweb.photo.controller;
 
+import voblaweb.photo.model.Branches;
 import voblaweb.photo.model.Kiosks;
-import voblaweb.photo.service.kiosks.IKiosksService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import voblaweb.photo.service.kiosks.KiosksService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/kiosks")
+@RequestMapping("/api")
 public class KiosksController {
     @Autowired
-    IKiosksService kiosksService;
+    KiosksService service;
 
-    @RequestMapping("/get")
-    public List<Kiosks> getKiosks(){
-        return kiosksService.getAll();
+    @RequestMapping("/kiosks")
+    public List<Kiosks> getAll(){
+        return service.getAll();
     }
 
-    @PostMapping("/insert")
-    public Kiosks insertCall(@RequestBody Kiosks kiosks) {
-        return kiosksService.insert(kiosks);
+    @RequestMapping("/kiosks/get")
+    public Kiosks getById(@RequestParam int id){
+        return service.getById(id);
     }
 
-    @RequestMapping("/update")
-    public Kiosks updateCall(@RequestBody Kiosks kiosks, @RequestParam("id") int id) {
-        kiosks.setKioskId(id);
-        return kiosksService.update(kiosks);
+    @RequestMapping("/kiosks/insert")
+    public Kiosks insert(@RequestParam String address, int amountOfWorkplaces, int branchId) {
+        Branches branches = new Branches();
+        branches.setId(branchId);
+        Kiosks kiosks = new Kiosks(address, amountOfWorkplaces, branches);
+        return service.insert(kiosks);
     }
 
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        kiosksService.deleteById((int)id);
+    @RequestMapping("/kiosks/update")
+    public Kiosks updateCall(@RequestParam int id, String address, int amountOfWorkplaces, int branchId) {
+        Branches branches = new Branches();
+        branches.setId(branchId);
+        Kiosks kiosks = new Kiosks(address, amountOfWorkplaces, branches);
+        kiosks.setId(id);
+        return service.update(kiosks);
+    }
+
+    @RequestMapping("/kiosks/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
     }
 }

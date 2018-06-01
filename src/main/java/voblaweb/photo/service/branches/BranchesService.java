@@ -15,7 +15,7 @@ public class BranchesService implements IBranchesService {
 
     @Override
     public List<Branches> getAll() {
-        return repository.findAll();
+        return (List<Branches>)repository.findAll();
     }
 
     @Override
@@ -34,7 +34,7 @@ public class BranchesService implements IBranchesService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

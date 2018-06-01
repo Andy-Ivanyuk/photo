@@ -8,5 +8,6 @@ public interface IGoodTypeService {
     List<GoodType> getAll();
     GoodType insert(GoodType goodType);
     GoodType update(GoodType goodType);
-    void deleteById(int id);
+    GoodType getById(int id);
+    void delete(int id);
 }

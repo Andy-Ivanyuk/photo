@@ -8,5 +8,6 @@ public interface IKiosksService {
     List<Kiosks> getAll();
     Kiosks insert(Kiosks kiosks);
     Kiosks update(Kiosks kiosks);
-    void deleteById(int id);
+    Kiosks getById(int id);
+    void delete(int id);
 }

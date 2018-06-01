@@ -11,7 +11,7 @@
     border: 1px solid #00000026;
     overflow: auto;
     border-radius: 12px;
-    margin: 0 15px 0 15px;
+    margin: 0 15px 120px 15px;
 }
 
 .datagrid table td, .datagrid table th {
@@ -99,7 +99,11 @@ h3 {
 .datagrid table tbody td:last-child:hover {
     cursor:pointer;
 }
+.datagrid table tbody td:last-child {
+    width: 40px;
+}
 .menu {
+    z-index: 1;
     display: none;
     position: relative;
     right: 140px;
@@ -109,7 +113,6 @@ h3 {
 }
 
 .more.icon {
-    z-index: 1;
     color: #000;
     position: absolute;
     margin-left: 9px;
@@ -140,7 +143,6 @@ h3 {
 }
 
 .btn-menu {
-    z-index: 300;
     width: 100%;
     color: black;
     padding: 12px 16px;

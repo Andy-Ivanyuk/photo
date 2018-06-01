@@ -15,7 +15,7 @@ public class GoodTypeService implements IGoodTypeService {
 
     @Override
     public List<GoodType> getAll() {
-        return repository.findAll();
+        return (List<GoodType>)repository.findAll();
     }
 
     @Override
@@ -29,7 +29,12 @@ public class GoodTypeService implements IGoodTypeService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public GoodType getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

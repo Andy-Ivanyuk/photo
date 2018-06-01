@@ -11,52 +11,61 @@ public class Clients {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "client_id")
-    private int clientId;
-    @Column(name = "client_name")
-    private String clientName;
-    private Boolean discountCard;
-    @ManyToOne
-    private Branches branchesBranchId;
+    private int id;
+    private String name;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "branchId")
+    private Branches branchId;
+    private String type;
+    private int discount;
 
-    public Clients(String clientName, Boolean discountCard, Branches branchesBranchId) {
-        this.clientName = clientName;
-        this.discountCard = discountCard;
-        this.branchesBranchId = branchesBranchId;
+    public Clients(String name, Branches branchId, String type, int discount) {
+        this.name = name;
+        this.branchId = branchId;
+        this.type = type;
+        this.discount = discount;
     }
 
     public Clients() {
     }
 
-    public int getClientId() {
-        return clientId;
+    public int getId() {
+        return id;
     }
 
-    public void setClientId(int clientId) {
-        this.clientId = clientId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getBranchName() {
-        return clientName;
+    public String getName() {
+        return name;
     }
 
-    public void setBranchName(String branchName) {
-        this.clientName = branchName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Boolean getDiscountCard() {
-        return discountCard;
+    public Branches getBranchId() {
+        return branchId;
     }
 
-    public void setDiscountCard(Boolean discountCard) {
-        this.discountCard = discountCard;
+    public void setBranchId(Branches branchId) {
+        this.branchId = branchId;
     }
 
-    public Branches getBranchesBranchId() {
-        return branchesBranchId;
+    public String getType() {
+        return type;
     }
 
-    public void setBranchesBranchId(Branches branchesBranchId) {
-        this.branchesBranchId = branchesBranchId;
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(int discount) {
+        this.discount = discount;
     }
 }

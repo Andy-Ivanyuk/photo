@@ -1,7 +1,9 @@
 package voblaweb.photo.repository;
 
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 import voblaweb.photo.model.Branches;
-import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface BranchesRepository extends JpaRepository<Branches,Integer> {
+@Repository
+public interface BranchesRepository extends CrudRepository<Branches,Integer> {
 }

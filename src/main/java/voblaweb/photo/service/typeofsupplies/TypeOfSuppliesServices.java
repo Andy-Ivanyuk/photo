@@ -15,7 +15,7 @@ public class TypeOfSuppliesServices implements ITypeOfSuppliesServices {
 
     @Override
     public List<TypeOfSupplies> getAll() {
-        return repository.findAll();
+        return (List<TypeOfSupplies>)repository.findAll();
     }
 
     @Override
@@ -29,7 +29,12 @@ public class TypeOfSuppliesServices implements ITypeOfSuppliesServices {
     }
 
     @Override
-    public void deleteById(int id) {
+    public TypeOfSupplies getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

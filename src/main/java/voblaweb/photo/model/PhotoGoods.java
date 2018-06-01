@@ -5,7 +5,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "good")
+@Table(name = "photo_goods")
 @EntityListeners(AuditingEntityListener.class)
 public class PhotoGoods {
     @Id
@@ -14,13 +14,12 @@ public class PhotoGoods {
     private String goodName;
     @ManyToOne
     private GoodType goodTypeGoodTypeId;
-    @ManyToOne
-    private Suppliers suppliersSupplierId;
+    private String suppliersName;
 
-    public PhotoGoods(String goodName, GoodType goodTypeGoodTypeId, Suppliers suppliersSupplierId) {
+    public PhotoGoods(String goodName, GoodType goodTypeGoodTypeId, String suppliersName) {
         this.goodName = goodName;
         this.goodTypeGoodTypeId = goodTypeGoodTypeId;
-        this.suppliersSupplierId = suppliersSupplierId;
+        this.suppliersName = suppliersName;
     }
 
     public PhotoGoods() {
@@ -50,11 +49,11 @@ public class PhotoGoods {
         this.goodTypeGoodTypeId = goodTypeGoodTypeId;
     }
 
-    public Suppliers getSuppliersSupplierId() {
-        return suppliersSupplierId;
+    public String getSuppliersName() {
+        return suppliersName;
     }
 
-    public void setSuppliersSupplierId(Suppliers suppliersSupplierId) {
-        this.suppliersSupplierId = suppliersSupplierId;
+    public void setSuppliersName(String suppliersName) {
+        this.suppliersName = suppliersName;
     }
 }

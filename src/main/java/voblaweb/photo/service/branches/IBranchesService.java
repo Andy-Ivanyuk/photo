@@ -9,5 +9,5 @@ public interface IBranchesService {
     Branches insert(Branches branches);
     Branches update(Branches branches);
     Branches getById(int id);
-    void deleteById(int id);
+    void delete(int id);
 }

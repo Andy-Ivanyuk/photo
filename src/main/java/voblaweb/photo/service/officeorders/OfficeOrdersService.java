@@ -15,7 +15,7 @@ public class OfficeOrdersService implements IOfficeOrdersService {
 
     @Override
     public List<OfficeOrders> getAll() {
-        return repository.findAll();
+        return (List<OfficeOrders>)repository.findAll();
     }
 
     @Override
@@ -29,7 +29,12 @@ public class OfficeOrdersService implements IOfficeOrdersService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public OfficeOrders getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

@@ -15,7 +15,7 @@ public class KiosksService implements IKiosksService {
 
     @Override
     public List<Kiosks> getAll() {
-        return repository.findAll();
+        return (List<Kiosks>)repository.findAll();
     }
 
     @Override
@@ -29,7 +29,12 @@ public class KiosksService implements IKiosksService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public Kiosks getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

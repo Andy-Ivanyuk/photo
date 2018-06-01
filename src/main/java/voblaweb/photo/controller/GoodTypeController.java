@@ -1,36 +1,43 @@
 package voblaweb.photo.controller;
 
-import voblaweb.photo.model.GoodType;
-import voblaweb.photo.service.goodtype.IGoodTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import voblaweb.photo.model.GoodType;
+import voblaweb.photo.service.goodtype.GoodTypeService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/good_type")
+@RequestMapping("/api")
 public class GoodTypeController {
     @Autowired
-    IGoodTypeService goodTypeService;
+    GoodTypeService service;
 
-    @RequestMapping("/get")
-    public List<GoodType> getGoodType(){
-        return goodTypeService.getAll();
+    @RequestMapping("/good_type")
+    public List<GoodType> getAll(){
+        return service.getAll();
     }
 
-    @PostMapping("/insert")
-    public GoodType insertCall(@RequestBody GoodType goodType) {
-        return goodTypeService.insert(goodType);
+    @RequestMapping("/good_type/get")
+    public GoodType getById(@RequestParam int id){
+        return service.getById(id);
     }
 
-    @RequestMapping("/update")
-    public GoodType updateCall(@RequestBody GoodType goodType, @RequestParam("id") int id) {
-        goodType.setGoodTypeId(id);
-        return goodTypeService.update(goodType);
+    @RequestMapping("/good_type/insert")
+    public GoodType insert(@RequestParam String name) {
+        GoodType goodType = new GoodType(name);
+        return service.insert(goodType);
     }
 
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        goodTypeService.deleteById((int)id);
+    @RequestMapping("/good_type/update")
+    public GoodType updateCall(@RequestParam int id, String name) {
+        GoodType goodType = new GoodType(name);
+        goodType.setId(id);
+        return service.update(goodType);
+    }
+
+    @RequestMapping("/good_type/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
     }
 }

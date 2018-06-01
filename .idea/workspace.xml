@@ -2,31 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155c5e4a-33ff-4869-828d-df7ba12af1a0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/branches.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/goodType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/kiosks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/supplies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/typeOfSupplies.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/photo.iml" afterPath="$PROJECT_DIR$/photo.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/GoodTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/GoodTypeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/LoversController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ProfessionalsController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServiceSuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServiceSuppliesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliersController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/TypeOfSuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/TypeOfSuppliesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Branches.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Branches.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/GoodType.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/GoodType.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Kiosks.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Kiosks.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Lovers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Professionals.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Suppliers.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/TypeOfSupplies.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/TypeOfSupplies.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/GoodTypeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/GoodTypeRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/KiosksRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/KiosksRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/LoversRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/PhotoGoodsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/PhotoGoodsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ProfessionalsRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServiceSuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServiceSuppliesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServicesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServicesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliersRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/TypeOfSuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/TypeOfSuppliesRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/GoodTypeService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/GoodTypeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/IGoodTypeService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/IGoodTypeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/IKiosksService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/IKiosksService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/KiosksService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/KiosksService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/lovers/ILoversService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/lovers/LoversService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/professionals/IProfessionalsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/professionals/ProfessionalsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/ISuppliersService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/SuppliersService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/branches.html" afterPath="$PROJECT_DIR$/src/main/resources/static/branches.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/clients.html" afterPath="$PROJECT_DIR$/src/main/resources/static/clients.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/good_type.html" afterPath="$PROJECT_DIR$/src/main/resources/static/good_type.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/angular.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/angular.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/branches.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/branches.js" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/clients.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/clients.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/kiosks.html" afterPath="$PROJECT_DIR$/src/main/resources/static/kiosks.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lovers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/office_orders.html" afterPath="$PROJECT_DIR$/src/main/resources/static/office_orders.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/professionals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/suppliers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/supplies.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/branches.html" afterPath="$PROJECT_DIR$/target/classes/static/branches.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/clients.html" afterPath="$PROJECT_DIR$/target/classes/static/clients.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/index.css" afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/good_type.html" afterPath="$PROJECT_DIR$/target/classes/static/good_type.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/angular.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/angular.min.js" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/clients.js" afterPath="$PROJECT_DIR$/target/classes/static/js/clients.js" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/kiosks.html" afterPath="$PROJECT_DIR$/target/classes/static/kiosks.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/lovers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/office_orders.html" afterPath="$PROJECT_DIR$/target/classes/static/office_orders.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/professionals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/suppliers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/supplies.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/type_of_supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/type_of_supplies.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/BranchesController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/BranchesController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ClientsController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ClientsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/GoodTypeController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/GoodTypeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/HurrySuppliesController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/KiosksController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/KiosksController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/LoversController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/OfficeOrdersController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/PhotoGoodsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ProfessionalsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ServiceSuppliesController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ServicesController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/SuppliersController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/SuppliesController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/SuppliesController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/TypeOfSuppliesController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/TypeOfSuppliesController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Branches.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Branches.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Clients.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Clients.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/GoodType.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/GoodType.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/HurrySupplies.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/HurrySupplies.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Kiosks.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Kiosks.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Lovers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/OfficeOrders.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/OfficeOrders.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/PhotoGoods.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/PhotoGoods.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Professionals.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Suppliers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Supplies.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/Supplies.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/TypeOfSupplies.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/TypeOfSupplies.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/BranchesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/BranchesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ClientsRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ClientsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/GoodTypeRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/GoodTypeRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/HurrySuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/HurrySuppliesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/KiosksRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/KiosksRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/LoversRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/OfficeOrdersRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/OfficeOrdersRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/PhotoGoodsRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/PhotoGoodsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ProfessionalsRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ServiceSuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ServiceSuppliesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ServicesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ServicesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/SuppliersRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/SuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/SuppliesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/TypeOfSuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/TypeOfSuppliesRepository.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/BranchesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/BranchesService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/IBranchesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/IBranchesService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/ClientsService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/ClientsService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/IClientsService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/IClientsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/goodtype/GoodTypeService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/goodtype/GoodTypeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/goodtype/IGoodTypeService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/goodtype/IGoodTypeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/IKiosksService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/IKiosksService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/KiosksService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/KiosksService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/lovers/ILoversService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/lovers/LoversService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/IOfficeOrdersService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/IOfficeOrdersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/OfficeOrdersService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/OfficeOrdersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/photogoods/PhotoGoodsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/professionals/IProfessionalsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/professionals/ProfessionalsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/services/ServicesService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/suppliers/ISuppliersService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/suppliers/SuppliersService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/ISuppliesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/ISuppliesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/SuppliesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/SuppliesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,21 +196,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IClientsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java">
+      <file leaf-file-name="supplies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/supplies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="544">
+              <caret line="130" column="89" lean-forward="false" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java">
+      <file leaf-file-name="supplies.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/supplies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="127">
+              <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -77,82 +219,45 @@
       <file leaf-file-name="clients.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/clients.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+            <state relative-caret-position="351">
+              <caret line="111" column="32" lean-forward="false" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="branches.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/branches.js">
+      <file leaf-file-name="Supplies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clients.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/clients.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="75" column="91" lean-forward="false" selection-start-line="75" selection-start-column="91" selection-end-line="75" selection-end-column="91" />
+            <state relative-caret-position="216">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="branches.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/branches.html">
+      <file leaf-file-name="SuppliesService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="69" column="82" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="82" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clients.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java">
+      <file leaf-file-name="SuppliesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Branches.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Branches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BranchesController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="-146">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,11 +278,31 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.</find>
-      <find>clients</find>
       <find>inse</find>
+      <find>branch</find>
+      <find>branches</find>
+      <find>datagrid table tbody td</find>
+      <find>branchesId</find>
+      <find>hurryS</find>
+      <find>clients</find>
+      <find>kiosks</find>
+      <find>type_of_supplies</find>
+      <find>type_of_supply</find>
+      <find>TypeOfSupply</find>
     </findStrings>
     <replaceStrings>
       <replace>branches</replace>
+      <replace>branchId</replace>
+      <replace>GoodType</replace>
+      <replace>good_type</replace>
+      <replace>goodType</replace>
+      <replace>hurry_supplies</replace>
+      <replace>kiosks</replace>
+      <replace>lovers</replace>
+      <replace>office_orders</replace>
+      <replace>supplies</replace>
+      <replace>type_of_supplies</replace>
+      <replace>TypeOfSupplies</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -196,57 +321,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/KiosksRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/GoodTypeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/LoversRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/PhotoGoodsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ProfessionalsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServicesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServiceSuppliesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/TypeOfSuppliesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/GoodTypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/goodtype/IGoodTypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/IKiosksService.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/KiosksService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/lovers/ILoversService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/professionals/ProfessionalsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/SuppliersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ProfessionalsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServiceSuppliesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliersController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/kiosks.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/LoversController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Lovers.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/lovers/LoversService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/lovers/ILoversService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/lovers.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/IPhotoGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/professionals/IProfessionalsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/professionals/ProfessionalsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/IServicesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/IServiceSuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/ISuppliersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/SuppliersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/office_orders.html" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/TypeOfSupplies.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/TypeOfSuppliesController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/typeOfSupplies.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/photo_goods.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/index.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/branches.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/branches.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/clients.js" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/clients.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/good_type.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/kiosks.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/goodType.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/supplies.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/clients.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/supplies.js" />
       </list>
     </option>
   </component>
@@ -270,9 +395,31 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+    <option name="x" value="-7" />
     <option name="width" value="814" />
-    <option name="height" value="437" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSUnresolvedVariable</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -292,8 +439,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,11 +484,141 @@
               <item name="photo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="branches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="kiosks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="officeorders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="photogoods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="supplies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="typeofsupplies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +670,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.030124428" />
+    <option name="contentProportion" value="0.13817944" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -500,7 +777,13 @@
       <workItem from="1527412237762" duration="2733000" />
       <workItem from="1527415074311" duration="1046000" />
       <workItem from="1527416604077" duration="193000" />
-      <workItem from="1527417013451" duration="30117000" />
+      <workItem from="1527417013451" duration="38201000" />
+      <workItem from="1527535841696" duration="12624000" />
+      <workItem from="1527574450629" duration="12648000" />
+      <workItem from="1527602737517" duration="11961000" />
+      <workItem from="1527704088140" duration="21596000" />
+      <workItem from="1527748332356" duration="3076000" />
+      <workItem from="1527871747364" duration="12963000" />
     </task>
     <task id="LOCAL-00001" summary="created all crud methods for all tables using CrudRepository">
       <created>1525701307018</created>
@@ -530,11 +813,27 @@
       <option name="project" value="LOCAL" />
       <updated>1527417186851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="worse one">
+      <created>1527465982933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527465982933</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81434000" />
+    <option name="totallyTimeSpent" value="164386000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -550,19 +849,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.49598163" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27702704" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.49598163" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17609255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -589,7 +888,9 @@
     <MESSAGE value="created all crud methods for all tables using CrudRepository" />
     <MESSAGE value="created all crud methods for all tables using JpaRepository" />
     <MESSAGE value="front" />
-    <option name="LAST_COMMIT_MESSAGE" value="front" />
+    <MESSAGE value="worse one" />
+    <MESSAGE value="almost the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,290 +903,73 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_6_RELEASE.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_5_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/branches.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="429">
+          <caret line="93" column="75" lean-forward="false" selection-start-line="93" selection-start-column="75" selection-end-line="93" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/GoodTypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-191">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/TypeOfSuppliesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="450">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/ISuppliersService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/IServiceSuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="53">
+          <caret line="27" column="94" lean-forward="true" selection-start-line="27" selection-start-column="94" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Kiosks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/suppliers/SuppliersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="253">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="17" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="175">
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="142" column="16" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -893,108 +977,321 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/PhotoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/photo_goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#301#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/GoodTypeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/service_supplies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/suppliers.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/office_orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2144">
+          <caret line="134" column="82" lean-forward="false" selection-start-line="134" selection-start-column="82" selection-end-line="134" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Branches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="126">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/branches.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="69" column="82" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="82" />
+        <state relative-caret-position="125">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliersController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Suppliers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/good_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="75" column="91" lean-forward="false" selection-start-line="75" selection-start-column="91" selection-end-line="75" selection-end-column="91" />
+        <state relative-caret-position="2650">
+          <caret line="106" column="66" lean-forward="false" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#2191#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="false" />
+            <element signature="e#1381#1382#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1088#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/ServiceSupplies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServicesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Branches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/TypeOfSupplies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Services.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/GoodType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/goodType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/branches.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="975">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/kiosks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="99" column="71" lean-forward="false" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/kiosks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/typeOfSupplies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="51" column="66" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/clients.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="351">
+          <caret line="111" column="32" lean-forward="false" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/supplies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="544">
+          <caret line="130" column="89" lean-forward="false" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/supplies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
           <folding />
         </state>
       </provider>

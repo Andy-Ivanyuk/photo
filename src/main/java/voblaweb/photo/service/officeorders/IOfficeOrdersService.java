@@ -8,5 +8,6 @@ public interface IOfficeOrdersService {
     List<OfficeOrders> getAll();
     OfficeOrders insert(OfficeOrders officeOrders);
     OfficeOrders update(OfficeOrders officeOrders);
-    void deleteById(int id);
+    OfficeOrders getById(int id);
+    void delete(int id);
 }

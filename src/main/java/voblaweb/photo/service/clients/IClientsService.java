@@ -9,5 +9,5 @@ public interface IClientsService {
     Clients insert(Clients clients);
     Clients update(Clients clients);
     Clients getById(int id);
-    void deleteById(int id);
+    void delete(int id);
 }

@@ -1,36 +1,65 @@
 package voblaweb.photo.controller;
 
+import voblaweb.photo.model.Clients;
+import voblaweb.photo.model.Kiosks;
 import voblaweb.photo.model.Supplies;
-import voblaweb.photo.service.supplies.ISuppliesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import voblaweb.photo.model.TypeOfSupplies;
+import voblaweb.photo.service.supplies.SuppliesService;
 
+import java.sql.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("/supplies")
+@RequestMapping("/api")
 public class SuppliesController {
     @Autowired
-    ISuppliesService suppliesService;
+    SuppliesService service;
 
-    @RequestMapping("/get")
-    public List<Supplies> getSupplies(){
-        return suppliesService.getAll();
+    @RequestMapping("/supplies")
+    public List<Supplies> getAll(){
+        return service.getAll();
     }
 
-    @PostMapping("/insert")
-    public Supplies insertCall(@RequestBody Supplies supplies) {
-        return suppliesService.insert(supplies);
+    @RequestMapping("/supplies/get")
+    public Supplies getById(@RequestParam int id){
+        return service.getById(id);
     }
 
-    @RequestMapping("/update")
-    public Supplies updateCall(@RequestBody Supplies supplies, @RequestParam("id") int id) {
-        supplies.setSuppliesId(id);
-        return suppliesService.update(supplies);
+    @RequestMapping("/supplies/insert")
+    public Supplies insert(@RequestParam int kioskId, int typeOfSupplyId, int price,
+                           int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
+                           String paperType, Date supplyDate, Boolean isDone, int clientId) {
+        Kiosks kiosks = new Kiosks();
+        kiosks.setId(kioskId);
+        TypeOfSupplies typeOfSupplies = new TypeOfSupplies();
+        typeOfSupplies.setId(typeOfSupplyId);
+        Clients clients = new Clients();
+        clients.setId(clientId);
+        Supplies supplies = new Supplies(kiosks, typeOfSupplies, price, amountOfPhotosPerFrame,
+                totalAmountOfPhotos, format, paperType, supplyDate, isDone, clients);
+        return service.insert(supplies);
     }
 
-    @RequestMapping("/del")
-    public void delCall(@RequestParam("id") int id){
-        suppliesService.deleteById((int)id);
+    @RequestMapping("/supplies/update")
+    public Supplies updateCall(@RequestParam int id, int kioskId, int typeOfSupplyId, int price,
+                                     int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
+                                     String paperType, Date supplyDate, Boolean isDone, int clientId) {
+        Kiosks kiosks = new Kiosks();
+        kiosks.setId(kioskId);
+        TypeOfSupplies typeOfSupplies = new TypeOfSupplies();
+        typeOfSupplies.setId(typeOfSupplyId);
+        Clients clients = new Clients();
+        clients.setId(clientId);
+        Supplies supplies = new Supplies(kiosks, typeOfSupplies, price, amountOfPhotosPerFrame,
+                totalAmountOfPhotos, format, paperType, supplyDate, isDone, clients);
+        supplies.setId(id);
+        return service.update(supplies);
+    }
+
+    @RequestMapping("/supplies/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
     }
 }

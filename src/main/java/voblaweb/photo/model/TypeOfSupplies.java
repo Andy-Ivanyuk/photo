@@ -10,30 +10,30 @@ import javax.persistence.*;
 public class TypeOfSupplies {
 
     @Id
-    @Column(name = "type_of_supplies_id")
-    private int typeId;
-    private String nameOfSupply;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
 
-    public TypeOfSupplies(String nameOfSupply) {
-        this.nameOfSupply = nameOfSupply;
+    public TypeOfSupplies(String name) {
+        this.name = name;
     }
 
     public TypeOfSupplies() {
     }
 
-    public int getTypeId() {
-        return typeId;
+    public int getId() {
+        return id;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getNameOfSupply() {
-        return nameOfSupply;
+    public String getName() {
+        return name;
     }
 
-    public void setNameOfSupply(String nameOfSupply) {
-        this.nameOfSupply = nameOfSupply;
+    public void setName(String name) {
+        this.name = name;
     }
 }

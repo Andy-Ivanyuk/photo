@@ -4,7 +4,7 @@ app.controller("AppCtrl", function ($http, $scope) {
 
     $scope.entries = [];
     $http.get('/api/branches').then(function (response){
-        $scope.entries=response.data;
+        $scope.entries = response.data;
         console.log(response);
     });
     this.del_entry = function del(id) {
@@ -17,32 +17,27 @@ app.controller("AppCtrl", function ($http, $scope) {
     this.start_insert_entry = function add() {
     };
 
-    this.insert = function insert() {
-        var branchAddress = document.getElementById("Address").value;
-        var branchAmountOfWorkplaces = document.getElementById("AmountOfWorkplaces").value;
+    this.insert_entry = function add() {
+        var address = document.getElementById("Address").value;
+        var amountOfWorkplaces = document.getElementById("AmountOfWorkplaces").value;
 
-        $http.get('/api/branches/insert?branchAddress='+branchAddress+'&branchAmountOfWorkplaces='+branchAmountOfWorkplaces)
-            .then(function (response){
+        $http.get('/api/branches/insert?address='+address+'&amountOfWorkplaces='+amountOfWorkplaces).then(function (response){
                 window.location.reload();
                 window.alert('Вітку було успішно додано!');
             });
     };
     var thisId;
 
-    this.start_update_entry = function upd(id, branchAddress, branchAmountOfWorkplaces) {
+    this.start_update_entry = function upd(id, address, amountOfWorkplaces) {
         thisId = id;
-        window.alert("In update_entry");
-        document.getElementById("AddressUPD").value=branchAddress;
-        document.getElementById("BranchAmountOfWorkplacesUPD").value=branchAmountOfWorkplaces;
+        document.getElementById("AddressUPD").value=address;
+        document.getElementById("AmountOfWorkplacesUPD").value=amountOfWorkplaces;
     };
     this.update_entry = function update_entry() {
-        var branchAddress = document.getElementById("AddressUPD").value;
-        var branchAmountOfWorkplaces = document.getElementById("AmountOfWorkplacesUPD").value;
-        window.alert("In update");
+        var address = document.getElementById("AddressUPD").value;
+        var amountOfWorkplaces = document.getElementById("AmountOfWorkplacesUPD").value;
 
-        $http.get('/api/branches/update?id='+thisId+'&branchAddress='+branchAddress+'&branchAmountOfWorkplaces='
-            +branchAmountOfWorkplaces).then(function (response){
-            window.alert("In get");
+        $http.get('/api/branches/update?id='+thisId+'&address='+address+'&amountOfWorkplaces=' +amountOfWorkplaces).then(function (response){
             window.location.reload();
         });
     };

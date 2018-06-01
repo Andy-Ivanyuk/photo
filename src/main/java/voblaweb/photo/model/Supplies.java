@@ -3,7 +3,7 @@ package voblaweb.photo.model;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Table(name = "supplies")
@@ -11,12 +11,14 @@ import java.util.Date;
 public class Supplies {
 
     @Id
-    @Column(name = "supplies_id")
-    private int suppliesId;
-    @ManyToOne
-    private Kiosks kiosksKioskId;
-    @ManyToOne
-    private TypeOfSupplies typeOfSuppliesTypeId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "kioskId")
+    private Kiosks kioskId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "typeOfSupplyId")
+    private TypeOfSupplies typeOfSupplyId;
     private int price;
     private int amountOfPhotosPerFrame;
     private int totalAmountOfPhotos;
@@ -24,14 +26,16 @@ public class Supplies {
     private String paperType;
     private Date supplyDate;
     private Boolean isDone;
-    @ManyToOne
-    private Clients clientsClientId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "clientId")
+    private Clients clientId;
 
-    public Supplies(Kiosks kiosksKioskId, TypeOfSupplies typeOfSuppliesTypeId, int price,
-                    int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
-                    String paperType, Date supplyDate, Boolean isDone, Clients clientsClientId) {
-        this.kiosksKioskId = kiosksKioskId;
-        this.typeOfSuppliesTypeId = typeOfSuppliesTypeId;
+    public Supplies() {
+    }
+
+    public Supplies(Kiosks kioskId, TypeOfSupplies typeOfSupplyId, int price, int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format, String paperType, Date supplyDate, Boolean isDone, Clients clientId) {
+        this.kioskId = kioskId;
+        this.typeOfSupplyId = typeOfSupplyId;
         this.price = price;
         this.amountOfPhotosPerFrame = amountOfPhotosPerFrame;
         this.totalAmountOfPhotos = totalAmountOfPhotos;
@@ -39,34 +43,31 @@ public class Supplies {
         this.paperType = paperType;
         this.supplyDate = supplyDate;
         this.isDone = isDone;
-        this.clientsClientId = clientsClientId;
+        this.clientId = clientId;
     }
 
-    public Supplies() {
+    public int getId() {
+        return id;
     }
 
-    public int getSuppliesId() {
-        return suppliesId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setSuppliesId(int suppliesId) {
-        this.suppliesId = suppliesId;
+    public Kiosks getKioskId() {
+        return kioskId;
     }
 
-    public Kiosks getKiosksKioskId() {
-        return kiosksKioskId;
+    public void setKioskId(Kiosks kioskId) {
+        this.kioskId = kioskId;
     }
 
-    public void setKiosksKioskId(Kiosks kiosksKioskId) {
-        this.kiosksKioskId = kiosksKioskId;
+    public TypeOfSupplies getTypeOfSupplyId() {
+        return typeOfSupplyId;
     }
 
-    public TypeOfSupplies getTypeOfSuppliesTypeId() {
-        return typeOfSuppliesTypeId;
-    }
-
-    public void setTypeOfSuppliesTypeId(TypeOfSupplies typeOfSuppliesTypeId) {
-        this.typeOfSuppliesTypeId = typeOfSuppliesTypeId;
+    public void setTypeOfSupplyId(TypeOfSupplies typeOfSupplyId) {
+        this.typeOfSupplyId = typeOfSupplyId;
     }
 
     public int getPrice() {
@@ -125,11 +126,11 @@ public class Supplies {
         isDone = done;
     }
 
-    public Clients getClientsClientId() {
-        return clientsClientId;
+    public Clients getClientId() {
+        return clientId;
     }
 
-    public void setClientsClientId(Clients clientsClientId) {
-        this.clientsClientId = clientsClientId;
+    public void setClientId(Clients clientId) {
+        this.clientId = clientId;
     }
 }

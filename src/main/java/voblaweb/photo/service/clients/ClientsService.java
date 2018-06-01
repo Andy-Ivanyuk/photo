@@ -15,7 +15,7 @@ public class ClientsService implements IClientsService {
 
     @Override
     public List<Clients> getAll() {
-        return repository.findAll();
+        return (List<Clients>)repository.findAll();
     }
 
     @Override
@@ -34,7 +34,7 @@ public class ClientsService implements IClientsService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

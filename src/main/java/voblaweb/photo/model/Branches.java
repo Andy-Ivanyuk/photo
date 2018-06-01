@@ -11,40 +11,39 @@ public class Branches {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "branch_id")
-    private int branchId;
-    private String branchAddress;
-    private int branchAmountOfWorkplaces;
-
-    public Branches(String branchAddress, int branchAmountOfWorkplaces) {
-        this.branchAddress = branchAddress;
-        this.branchAmountOfWorkplaces = branchAmountOfWorkplaces;
-    }
+    private int id;
+    private String address;
+    private int amountOfWorkplaces;
 
     public Branches() {
     }
 
-    public int getBranchId() {
-        return branchId;
+    public Branches(String address, int amountOfWorkplaces) {
+        this.address = address;
+        this.amountOfWorkplaces = amountOfWorkplaces;
     }
 
-    public void setBranchId(int branchId) {
-        this.branchId = branchId;
+    public int getId() {
+        return id;
     }
 
-    public String getBranchAddress() {
-        return branchAddress;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setBranchAddress(String branchAddress) {
-        this.branchAddress = branchAddress;
+    public String getAddress() {
+        return address;
     }
 
-    public int getBranchAmountOfWorkplaces() {
-        return branchAmountOfWorkplaces;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public void setBranchAmountOfWorkplaces(int branchAmountOfWorkplaces) {
-        this.branchAmountOfWorkplaces = branchAmountOfWorkplaces;
+    public int getAmountOfWorkplaces() {
+        return amountOfWorkplaces;
+    }
+
+    public void setAmountOfWorkplaces(int amountOfWorkplaces) {
+        this.amountOfWorkplaces = amountOfWorkplaces;
     }
 }

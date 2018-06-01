@@ -10,51 +10,52 @@ import javax.persistence.*;
 public class Kiosks {
 
     @Id
-    @Column(name = "kiosk_id")
-    private int kioskId;
-    private String kioskAddress;
-    private int kioskAmountOfWorkplaces;
-    @ManyToOne
-    private Branches branchesBranchId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String address;
+    private int amountOfWorkplaces;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "branchId")
+    private Branches branchId;
 
-    public Kiosks(String kioskAddress, int kioskAmountOfWorkplaces, Branches branchesBranchId) {
-        this.kioskAddress = kioskAddress;
-        this.kioskAmountOfWorkplaces = kioskAmountOfWorkplaces;
-        this.branchesBranchId = branchesBranchId;
+    public Kiosks(String address, int amountOfWorkplaces, Branches branchId) {
+        this.address = address;
+        this.amountOfWorkplaces = amountOfWorkplaces;
+        this.branchId = branchId;
     }
 
     public Kiosks() {
     }
 
-    public int getKioskId() {
-        return kioskId;
+    public int getId() {
+        return id;
     }
 
-    public void setKioskId(int kioskId) {
-        this.kioskId = kioskId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getKioskAddress() {
-        return kioskAddress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setKioskAddress(String kioskAddress) {
-        this.kioskAddress = kioskAddress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public int getKioskAmountOfWorkplaces() {
-        return kioskAmountOfWorkplaces;
+    public int getAmountOfWorkplaces() {
+        return amountOfWorkplaces;
     }
 
-    public void setKioskAmountOfWorkplaces(int kioskAmountOfWorkplaces) {
-        this.kioskAmountOfWorkplaces = kioskAmountOfWorkplaces;
+    public void setAmountOfWorkplaces(int amountOfWorkplaces) {
+        this.amountOfWorkplaces = amountOfWorkplaces;
     }
 
-    public Branches getBranchesBranchId() {
-        return branchesBranchId;
+    public Branches getBranchId() {
+        return branchId;
     }
 
-    public void setBranchesBranchId(Branches branchesBranchId) {
-        this.branchesBranchId = branchesBranchId;
+    public void setBranchId(Branches branchId) {
+        this.branchId = branchId;
     }
 }

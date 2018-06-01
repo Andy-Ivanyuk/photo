@@ -15,7 +15,7 @@ public class SuppliesService implements ISuppliesService {
 
     @Override
     public List<Supplies> getAll() {
-        return repository.findAll();
+        return (List<Supplies>)repository.findAll();
     }
 
     @Override
@@ -29,7 +29,12 @@ public class SuppliesService implements ISuppliesService {
     }
 
     @Override
-    public void deleteById(int id) {
+    public Supplies getById(int id) {
+        return repository.findById(id).get();
+    }
+
+    @Override
+    public void delete(int id) {
         repository.deleteById(id);
     }
 }

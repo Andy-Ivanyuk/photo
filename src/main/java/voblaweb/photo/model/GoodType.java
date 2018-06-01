@@ -8,31 +8,32 @@ import javax.persistence.*;
 @Table(name = "good_type")
 @EntityListeners(AuditingEntityListener.class)
 public class GoodType {
-    @Id
-    @Column(name = "good_type_id")
-    private int goodTypeId;
-    private String goodTypeName;
 
-    public GoodType(String goodTypeName) {
-        this.goodTypeName = goodTypeName;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+
+    public GoodType(String name) {
+        this.name = name;
     }
 
     public GoodType() {
     }
 
-    public int getGoodTypeId() {
-        return goodTypeId;
+    public int getId() {
+        return id;
     }
 
-    public void setGoodTypeId(int goodTypeId) {
-        this.goodTypeId = goodTypeId;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getGoodTypeName() {
-        return goodTypeName;
+    public String getName() {
+        return name;
     }
 
-    public void setGoodTypeName(String goodTypeName) {
-        this.goodTypeName = goodTypeName;
+    public void setName(String name) {
+        this.name = name;
     }
 }
