@@ -8,5 +8,6 @@ public interface IHurrySuppliesService {
     List<HurrySupplies> getAll();
     HurrySupplies insert(HurrySupplies hurrySupplies);
     HurrySupplies update(HurrySupplies hurrySupplies);
-    void deleteById(int id);
+    HurrySupplies getById(int id);
+    void delete(int id);
 }

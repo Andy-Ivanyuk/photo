@@ -73,7 +73,6 @@ app.controller("AppCtrl", function ($http, $scope) {
                 if(branches[i].id === branchId)
                 {
                     thisIndex = i;
-                    console.log("this index = " + thisIndex);
                 }
                 selector.add(option);
             }

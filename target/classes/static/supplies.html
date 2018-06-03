@@ -44,9 +44,9 @@
 				<div class="more icon">
 					<div class="menu">
 						<button type="button" class="btn-menu" data-toggle="modal" data-target="#updateModal"
-								ng-click="ctrl.start_update_entry(item.id,item.kioskId.address,item.typeOfSupplyId.name,
+								ng-click="ctrl.start_update_entry(item.id,item.kioskId.id,item.typeOfSupplyId.id,
 								item.price,item.amountOfPhotosPerFrame,item.totalAmountOfPhotos,item.format,
-								item.paperType,item.supplyDate,item.done,item.clientId.name)">
+								item.paperType,item.supplyDate,item.done,item.clientId.id)">
 							Редагувати
 						</button>
 						<button type="button" class="btn-menu"
@@ -99,7 +99,7 @@
 					</div>
 					<div class="row">
 						<div class="left">Тип бумаги</div>
-						<div class="right"><input type="text" id="PaperType"></div>
+						<div class="right"><select id="PaperType"></select></div>
 					</div>
 					<div class="row">
 						<div class="left">Дата замовлення</div>
@@ -161,7 +161,7 @@
 					</div>
 					<div class="row">
 						<div class="left">Тип бумаги</div>
-						<div class="right"><input type="text" value="-" id="PaperTypeUPD"></div>
+						<div class="right"><select id="PaperTypeUPD"></select></div>
 					</div>
 					<div class="row">
 						<div class="left">Дата замовлення</div>

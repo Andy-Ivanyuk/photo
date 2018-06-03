@@ -15,12 +15,12 @@
 	<div class="datagrid"><table id = "table">
 		<thead><tr>
 			<th>ID</th>
-			<th>Кількість товарів</th>
-			<th>Дата продажу</th>
-			<th>Дата замовлення</th>
-			<th>Ціна</th>
-			<th>Кіоск</th>
 			<th>Товар</th>
+			<th>Кіоск</th>
+			<th>Дата замовлення</th>
+			<th>Кількість товарів</th>
+			<th>Ціна</th>
+			<th>Дата продажу</th>
 			<th style="border-left-color: transparent"></th>
 		</tr></thead>
 		<tbody>
@@ -36,7 +36,7 @@
 				<div class="more icon">
 					<div class="menu">
 						<button type="button" class="btn-menu" data-toggle="modal" data-target="#updateModal"
-								ng-click="ctrl.start_update_entry(item.id,item.photoGoodId.name,item.kioskId.address,
+								ng-click="ctrl.start_update_entry(item.id,item.photoGoodId.id,item.kioskId.id,
 								item.dateOfSupply,item.amountOfGoods,item.price,item.dateOfSelling)">
 							Редагувати
 						</button>

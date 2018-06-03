@@ -3,27 +3,27 @@ var app = angular.module("photo", []);
 app.controller("AppCtrl", function ($http, $scope) {
 
     $scope.entries = [];
-    $http.get('/api/supplies').then(function (response){
+    $http.get('/api/hurry_supplies').then(function (response){
         $scope.entries = response.data;
         console.log(response);
     });
     this.del_entry = function del(id) {
-        $http.get('/api/supplies/del?id='+id).then(function (response){
+        $http.get('/api/hurry_supplies/del?id='+id).then(function (response){
             window.location.reload();
-            window.alert('Замовлення було видалено!');
+            window.alert('Термінове замовлення було видалено!');
         });
     };
 
     this.start_insert_entry = function add() {
 
-        $http.get('/api/kiosks').then(function (response){
-            var kiosks = response.data;
-            var selector = document.getElementById("Kiosks");
+        $http.get('/api/branches').then(function (response){
+            var branches = response.data;
+            var selector = document.getElementById("Branches");
             $(selector).empty();
-            for (var i = 0; i < kiosks.length; i++) {
+            for (var i = 0; i < branches.length; i++) {
                 var option = document.createElement("option");
-                option.text = kiosks[i].address;
-                option.value = kiosks[i].id;
+                option.text = branches[i].address;
+                option.value = branches[i].id;
                 selector.add(option);
             }
         });
@@ -101,8 +101,8 @@ app.controller("AppCtrl", function ($http, $scope) {
     };
 
     this.insert_entry = function add() {
-        var kiosksIndex = document.getElementById("Kiosks").selectedIndex;
-        var kioskId = document.getElementById("Kiosks").options[kiosksIndex].value;
+        var branchesIndex = document.getElementById("Branches").selectedIndex;
+        var branchId = document.getElementById("Branches").options[branchesIndex].value;
         var typeOfSuppliesIndex = document.getElementById("TypeOfSupplies").selectedIndex;
         var typeOfSupplyId = document.getElementById("TypeOfSupplies").options[typeOfSuppliesIndex].value;
         var price = document.getElementById("Price").value;
@@ -110,45 +110,45 @@ app.controller("AppCtrl", function ($http, $scope) {
         var totalAmountOfPhotos = document.getElementById("TotalAmountOfPhotos").value;
         var formatIndex = document.getElementById("Format").selectedIndex;
         var format = document.getElementById("Format").options[formatIndex].value;
-        var paperTypeIndex = document.getElementById("Format").selectedIndex;
-        var paperType = document.getElementById("Format").options[paperTypeIndex].value;
+        var paperTypeIndex = document.getElementById("PaperType").selectedIndex;
+        var paperType = document.getElementById("PaperType").options[paperTypeIndex].value;
         var supplyDate = document.getElementById("SupplyDate").value;
         var doneIndex = document.getElementById("IsDone").selectedIndex;
         var done = document.getElementById("IsDone").options[doneIndex].value;
         var clientsIndex = document.getElementById("Clients").selectedIndex;
         var clientId = document.getElementById("Clients").options[clientsIndex].value;
 
-        $http.get('/api/supplies/insert?kioskId='+kioskId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
-                +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
-                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='+clientId).then(function (response){
+        $http.get('/api/hurry_supplies/insert?branchId='+branchId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
+            +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
+            +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='+clientId).then(function (response){
             window.location.reload();
-            window.alert('Замовлення було успішно додано!');
+            window.alert('Термінове замовлення було успішно додано!');
         });
     };
     var thisId;
 
-    this.start_update_entry = function upd(id, kioskId, typeOfSupplyId, price, amountOfPhotosPerFrame,
+    this.start_update_entry = function upd(id, branchId, typeOfSupplyId, price, amountOfPhotosPerFrame,
                                            totalAmountOfPhotos, format, paperType, supplyDate, isDone,
                                            clientId) {
         thisId=id;
-        var kiosksIndex;
-        $http.get('/api/kiosks').then(function (response){
-            var kiosks = response.data;
-            var selector = document.getElementById("KiosksUPD");
+        var branchesIndex;
+        $http.get('/api/branches').then(function (response){
+            var branches = response.data;
+            var selector = document.getElementById("BranchesUPD");
             $(selector).empty();
-            for (var i = 0; i < kiosks.length; i++) {
+            for (var i = 0; i < branches.length; i++) {
                 var option = document.createElement("option");
-                option.text = kiosks[i].address;
-                option.value = kiosks[i].id;
-                if(kiosks[i].id === kioskId)
+                option.text = branches[i].address;
+                option.value = branches[i].id;
+                if(branches[i].id === branchId)
                 {
-                    kiosksIndex = i;
+                    branchesIndex = i;
 
                 }
                 selector.add(option);
             }
 
-            document.getElementById("KiosksUPD").selectedIndex=kiosksIndex;
+            document.getElementById("BranchesUPD").selectedIndex=branchesIndex;
         });
         var typeOfSuppliesIndex;
         $http.get('/api/type_of_supplies').then(function (response){
@@ -263,8 +263,8 @@ app.controller("AppCtrl", function ($http, $scope) {
         document.getElementById("IsDoneUPD").value=isDone;
     };
     this.update_entry = function update_entry() {
-        var kiosksIndex = document.getElementById("KiosksUPD").selectedIndex;
-        var kioskId = document.getElementById("KiosksUPD").options[kiosksIndex].value;
+        var branchesIndex = document.getElementById("BranchesUPD").selectedIndex;
+        var branchId = document.getElementById("BranchesUPD").options[branchesIndex].value;
         var typeOfSuppliesIndex = document.getElementById("TypeOfSuppliesUPD").selectedIndex;
         var typeOfSupplyId = document.getElementById("TypeOfSuppliesUPD").options[typeOfSuppliesIndex].value;
         var price = document.getElementById("PriceUPD").value;
@@ -280,10 +280,10 @@ app.controller("AppCtrl", function ($http, $scope) {
         var clientsIndex = document.getElementById("ClientsUPD").selectedIndex;
         var clientId = document.getElementById("ClientsUPD").options[clientsIndex].value;
 
-        $http.get('/api/supplies/update?id='+thisId+'&kioskId='+kioskId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
-                +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
-                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='
-                +clientId).then(function (response){
+        $http.get('/api/hurry_supplies/update?id='+thisId+'&branchId='+branchId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
+            +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
+            +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='
+            +clientId).then(function (response){
             window.location.reload();
         });
     };
