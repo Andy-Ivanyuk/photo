@@ -1,36 +1,48 @@
-//package voblaweb.photo.controller;
-//
-//import voblaweb.photo.model.PhotoGoods;
-//import voblaweb.photo.service.photogoods.IPhotoGoodsService;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.List;
-//
-//@RestController
-//@RequestMapping("/photo_goods")
-//public class PhotoGoodsController {
-//    @Autowired
-//    IPhotoGoodsService photoGoodsService;
-//
-//    @RequestMapping("/get")
-//    public List<PhotoGoods> getPhotoGoods(){
-//        return photoGoodsService.getAll();
-//    }
-//
-//    @PostMapping("/insert")
-//    public PhotoGoods insertCall(@RequestBody PhotoGoods photoGoods) {
-//        return photoGoodsService.insert(photoGoods);
-//    }
-//
-//    @RequestMapping("/update")
-//    public PhotoGoods updateCall(@RequestBody PhotoGoods photoGoods,@RequestParam("id") int id) {
-//        photoGoods.setGoodId(id);
-//        return photoGoodsService.update(photoGoods);
-//    }
-//
-//    @RequestMapping("/del")
-//    public void delCall(@RequestParam("id") int id){
-//        photoGoodsService.deleteById((int)id);
-//    }
-//}
+package voblaweb.photo.controller;
+
+import voblaweb.photo.model.GoodType;
+import voblaweb.photo.model.PhotoGoods;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import voblaweb.photo.service.photogoods.PhotoGoodsService;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api")
+public class PhotoGoodsController {
+    @Autowired
+    PhotoGoodsService service;
+
+    @RequestMapping("/photo_goods")
+    public List<PhotoGoods> getAll(){
+        return service.getAll();
+    }
+
+    @RequestMapping("/photo_goods/get")
+    public PhotoGoods getById(@RequestParam int id){
+        return service.getById(id);
+    }
+
+    @RequestMapping("/photo_goods/insert")
+    public PhotoGoods insert(@RequestParam String name, int goodTypeId, String supplierName) {
+        GoodType goodType = new GoodType();
+        goodType.setId(goodTypeId);
+        PhotoGoods photoGoods = new PhotoGoods(name, goodType, supplierName);
+        return service.insert(photoGoods);
+    }
+
+    @RequestMapping("/photo_goods/update")
+    public PhotoGoods updateCall(@RequestParam int id, String name, int goodTypeId, String supplierName) {
+        GoodType goodType = new GoodType();
+        goodType.setId(goodTypeId);
+        PhotoGoods photoGoods = new PhotoGoods(name, goodType, supplierName);
+        photoGoods.setId(id);
+        return service.update(photoGoods);
+    }
+
+    @RequestMapping("/photo_goods/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
+    }
+}

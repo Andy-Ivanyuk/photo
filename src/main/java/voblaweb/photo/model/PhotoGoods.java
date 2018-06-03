@@ -9,51 +9,52 @@ import javax.persistence.*;
 @EntityListeners(AuditingEntityListener.class)
 public class PhotoGoods {
     @Id
-    @Column(name = "good_id")
-    private int goodId;
-    private String goodName;
-    @ManyToOne
-    private GoodType goodTypeGoodTypeId;
-    private String suppliersName;
-
-    public PhotoGoods(String goodName, GoodType goodTypeGoodTypeId, String suppliersName) {
-        this.goodName = goodName;
-        this.goodTypeGoodTypeId = goodTypeGoodTypeId;
-        this.suppliersName = suppliersName;
-    }
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "goodTypeId")
+    private GoodType goodTypeId;
+    private String supplierName;
 
     public PhotoGoods() {
     }
 
-    public int getGoodId() {
-        return goodId;
+    public PhotoGoods(String name, GoodType goodTypeId, String supplierName) {
+        this.name = name;
+        this.goodTypeId = goodTypeId;
+        this.supplierName = supplierName;
     }
 
-    public void setGoodId(int goodId) {
-        this.goodId = goodId;
+    public int getId() {
+        return id;
     }
 
-    public String getGoodName() {
-        return goodName;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setGoodName(String goodName) {
-        this.goodName = goodName;
+    public String getName() {
+        return name;
     }
 
-    public GoodType getGoodTypeGoodTypeId() {
-        return goodTypeGoodTypeId;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setGoodTypeGoodTypeId(GoodType goodTypeGoodTypeId) {
-        this.goodTypeGoodTypeId = goodTypeGoodTypeId;
+    public GoodType getGoodTypeId() {
+        return goodTypeId;
     }
 
-    public String getSuppliersName() {
-        return suppliersName;
+    public void setGoodTypeId(GoodType goodTypeId) {
+        this.goodTypeId = goodTypeId;
     }
 
-    public void setSuppliersName(String suppliersName) {
-        this.suppliersName = suppliersName;
+    public String getSupplierName() {
+        return supplierName;
+    }
+
+    public void setSupplierName(String supplierName) {
+        this.supplierName = supplierName;
     }
 }

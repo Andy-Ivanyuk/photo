@@ -1,36 +1,56 @@
-//package voblaweb.photo.controller;
-//
-//import voblaweb.photo.model.ServiceSupplies;
-//import voblaweb.photo.service.servicesupplies.IServiceSuppliesService;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.List;
-//
-//@RestController
-//@RequestMapping("/service_supplies")
-//public class ServiceSuppliesController {
-//    @Autowired
-//    IServiceSuppliesService serviceSuppliesService;
-//
-//    @RequestMapping("/get")
-//    public List<ServiceSupplies> getServiceSupplies(){
-//        return serviceSuppliesService.getAll();
-//    }
-//
-//    @PostMapping("/insert")
-//    public ServiceSupplies insertCall(@RequestBody ServiceSupplies serviceSupplies) {
-//        return serviceSuppliesService.insert(serviceSupplies);
-//    }
-//
-//    @RequestMapping("/update")
-//    public ServiceSupplies updateCall(@RequestBody ServiceSupplies serviceSupplies, @RequestParam("id") int id) {
-//        serviceSupplies.setServiceSuppliesId(id);
-//        return serviceSuppliesService.update(serviceSupplies);
-//    }
-//
-//    @RequestMapping("/del")
-//    public void delCall(@RequestParam("id") int id){
-//        serviceSuppliesService.deleteById((int)id);
-//    }
-//}
+package voblaweb.photo.controller;
+
+import voblaweb.photo.model.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import voblaweb.photo.service.servicesupplies.ServiceSuppliesService;
+
+import java.sql.Date;
+import java.util.List;
+
+@RestController
+@RequestMapping("/api")
+public class ServiceSuppliesController {
+    @Autowired
+    ServiceSuppliesService service;
+
+    @RequestMapping("/service_supplies")
+    public List<ServiceSupplies> getAll(){
+        return service.getAll();
+    }
+
+    @RequestMapping("/service_supplies/get")
+    public ServiceSupplies getById(@RequestParam int id){
+        return service.getById(id);
+    }
+
+    @RequestMapping("/service_supplies/insert")
+    public ServiceSupplies insert(@RequestParam Date date, int kioskId, int serviceId, int clientId) {
+        Kiosks kiosks = new Kiosks();
+        kiosks.setId(kioskId);
+        Services services = new Services();
+        services.setId(serviceId);
+        Clients clients = new Clients();
+        clients.setId(clientId);
+        ServiceSupplies serviceSupplies = new ServiceSupplies(date, kiosks, services, clients);
+        return service.insert(serviceSupplies);
+    }
+
+    @RequestMapping("/service_supplies/update")
+    public ServiceSupplies updateCall(@RequestParam int id, Date date, int kioskId, int serviceId, int clientId) {
+        Kiosks kiosks = new Kiosks();
+        kiosks.setId(kioskId);
+        Services services = new Services();
+        services.setId(serviceId);
+        Clients clients = new Clients();
+        clients.setId(clientId);
+        ServiceSupplies serviceSupplies = new ServiceSupplies(date, kiosks, services, clients);
+        serviceSupplies.setId(id);
+        return service.update(serviceSupplies);
+    }
+
+    @RequestMapping("/service_supplies/del")
+    public void delete(@RequestParam int id){
+        service.delete(id);
+    }
+}

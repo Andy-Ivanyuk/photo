@@ -38,7 +38,7 @@
 			<td>{{item.format}}</td>
 			<td>{{item.paperType}}</td>
 			<td>{{item.supplyDate}}</td>
-			<td>{{item.isDone}}</td>
+			<td>{{item.done}}</td>
 			<td>{{item.clientId.name}}</td>
 			<td style="border-left-color: transparent">
 				<div class="more icon">
@@ -46,7 +46,7 @@
 						<button type="button" class="btn-menu" data-toggle="modal" data-target="#updateModal"
 								ng-click="ctrl.start_update_entry(item.id,item.kioskId.address,item.typeOfSupplyId.name,
 								item.price,item.amountOfPhotosPerFrame,item.totalAmountOfPhotos,item.format,
-								item.paperType,item.supplyDate,item.isDone,item.clientId.name)">
+								item.paperType,item.supplyDate,item.done,item.clientId.name)">
 							Редагувати
 						</button>
 						<button type="button" class="btn-menu"

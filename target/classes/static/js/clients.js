@@ -17,13 +17,13 @@ app.controller("AppCtrl", function ($http, $scope) {
     this.start_insert_entry = function add() {
 
         $http.get('/api/branches').then(function (response){
-            var kiosks = response.data;
+            var branches = response.data;
             var selector = document.getElementById("Branches");
             $(selector).empty();
-            for (var i = 0; i < kiosks.length; i++) {
+            for (var i = 0; i < branches.length; i++) {
                 var option = document.createElement("option");
-                option.text = kiosks[i].address;
-                option.value = kiosks[i].id;
+                option.text = branches[i].address;
+                option.value = branches[i].id;
                 selector.add(option);
             }
         });
@@ -61,6 +61,7 @@ app.controller("AppCtrl", function ($http, $scope) {
     this.start_update_entry = function upd(id, name, branchId, type, discount) {
         thisId=id;
         var thisIndex;
+        console.log("branch id = " + branchId);
         $http.get('/api/branches').then(function (response){
             var branches = response.data;
             var selector = document.getElementById("BranchesUPD");
@@ -72,6 +73,7 @@ app.controller("AppCtrl", function ($http, $scope) {
                 if(branches[i].id === branchId)
                 {
                     thisIndex = i;
+                    console.log("this index = " + thisIndex);
                 }
                 selector.add(option);
             }

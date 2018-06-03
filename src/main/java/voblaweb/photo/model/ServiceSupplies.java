@@ -3,7 +3,7 @@ package voblaweb.photo.model;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Table(name = "service_supplies")
@@ -11,33 +11,35 @@ import java.util.Date;
 public class ServiceSupplies {
 
     @Id
-    @Column(name = "service_supplies_id")
-    private int serviceSuppliesId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private Date date;
-    @ManyToOne
-    private Kiosks kiosksKioskId;
-    @ManyToOne
-    private Services servicesServiceId;
-    @ManyToOne
-    private Clients clientsClientId;
-
-    public ServiceSupplies(Date date, Kiosks kiosksKioskId, Services servicesServiceId,
-                           Clients clientsClientId) {
-        this.date = date;
-        this.kiosksKioskId = kiosksKioskId;
-        this.servicesServiceId = servicesServiceId;
-        this.clientsClientId = clientsClientId;
-    }
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "kioskId")
+    private Kiosks kioskId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "serviceId")
+    private Services serviceId;
+    @ManyToOne(fetch=FetchType.EAGER)
+    @JoinColumn(name = "clientId")
+    private Clients clientId;
 
     public ServiceSupplies() {
     }
 
-    public int getServiceSuppliesId() {
-        return serviceSuppliesId;
+    public ServiceSupplies(Date date, Kiosks kioskId, Services serviceId, Clients clientId) {
+        this.date = date;
+        this.kioskId = kioskId;
+        this.serviceId = serviceId;
+        this.clientId = clientId;
     }
 
-    public void setServiceSuppliesId(int serviceSuppliesId) {
-        this.serviceSuppliesId = serviceSuppliesId;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Date getDate() {
@@ -48,27 +50,27 @@ public class ServiceSupplies {
         this.date = date;
     }
 
-    public Kiosks getKiosksKioskId() {
-        return kiosksKioskId;
+    public Kiosks getKioskId() {
+        return kioskId;
     }
 
-    public void setKiosksKioskId(Kiosks kiosksKioskId) {
-        this.kiosksKioskId = kiosksKioskId;
+    public void setKioskId(Kiosks kioskId) {
+        this.kioskId = kioskId;
     }
 
-    public Services getServicesServiceId() {
-        return servicesServiceId;
+    public Services getServiceId() {
+        return serviceId;
     }
 
-    public void setServicesServiceId(Services servicesServiceId) {
-        this.servicesServiceId = servicesServiceId;
+    public void setServiceId(Services serviceId) {
+        this.serviceId = serviceId;
     }
 
-    public Clients getClientsClientId() {
-        return clientsClientId;
+    public Clients getClientId() {
+        return clientId;
     }
 
-    public void setClientsClientId(Clients clientsClientId) {
-        this.clientsClientId = clientsClientId;
+    public void setClientId(Clients clientId) {
+        this.clientId = clientId;
     }
 }

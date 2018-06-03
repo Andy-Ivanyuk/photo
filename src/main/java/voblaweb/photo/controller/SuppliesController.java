@@ -30,7 +30,7 @@ public class SuppliesController {
     @RequestMapping("/supplies/insert")
     public Supplies insert(@RequestParam int kioskId, int typeOfSupplyId, int price,
                            int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
-                           String paperType, Date supplyDate, Boolean isDone, int clientId) {
+                           String paperType, Date supplyDate, String done, int clientId) {
         Kiosks kiosks = new Kiosks();
         kiosks.setId(kioskId);
         TypeOfSupplies typeOfSupplies = new TypeOfSupplies();
@@ -38,14 +38,14 @@ public class SuppliesController {
         Clients clients = new Clients();
         clients.setId(clientId);
         Supplies supplies = new Supplies(kiosks, typeOfSupplies, price, amountOfPhotosPerFrame,
-                totalAmountOfPhotos, format, paperType, supplyDate, isDone, clients);
+                totalAmountOfPhotos, format, paperType, supplyDate, done, clients);
         return service.insert(supplies);
     }
 
     @RequestMapping("/supplies/update")
     public Supplies updateCall(@RequestParam int id, int kioskId, int typeOfSupplyId, int price,
                                      int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format,
-                                     String paperType, Date supplyDate, Boolean isDone, int clientId) {
+                                     String paperType, Date supplyDate, String done, int clientId) {
         Kiosks kiosks = new Kiosks();
         kiosks.setId(kioskId);
         TypeOfSupplies typeOfSupplies = new TypeOfSupplies();
@@ -53,7 +53,7 @@ public class SuppliesController {
         Clients clients = new Clients();
         clients.setId(clientId);
         Supplies supplies = new Supplies(kiosks, typeOfSupplies, price, amountOfPhotosPerFrame,
-                totalAmountOfPhotos, format, paperType, supplyDate, isDone, clients);
+                totalAmountOfPhotos, format, paperType, supplyDate, done, clients);
         supplies.setId(id);
         return service.update(supplies);
     }

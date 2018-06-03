@@ -25,7 +25,7 @@ public class Supplies {
     private String format;
     private String paperType;
     private Date supplyDate;
-    private Boolean isDone;
+    private String done;
     @ManyToOne(fetch=FetchType.EAGER)
     @JoinColumn(name = "clientId")
     private Clients clientId;
@@ -33,7 +33,7 @@ public class Supplies {
     public Supplies() {
     }
 
-    public Supplies(Kiosks kioskId, TypeOfSupplies typeOfSupplyId, int price, int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format, String paperType, Date supplyDate, Boolean isDone, Clients clientId) {
+    public Supplies(Kiosks kioskId, TypeOfSupplies typeOfSupplyId, int price, int amountOfPhotosPerFrame, int totalAmountOfPhotos, String format, String paperType, Date supplyDate, String done, Clients clientId) {
         this.kioskId = kioskId;
         this.typeOfSupplyId = typeOfSupplyId;
         this.price = price;
@@ -42,7 +42,7 @@ public class Supplies {
         this.format = format;
         this.paperType = paperType;
         this.supplyDate = supplyDate;
-        this.isDone = isDone;
+        this.done = done;
         this.clientId = clientId;
     }
 
@@ -118,12 +118,12 @@ public class Supplies {
         this.supplyDate = supplyDate;
     }
 
-    public Boolean getDone() {
-        return isDone;
+    public String getDone() {
+        return done;
     }
 
-    public void setDone(Boolean done) {
-        isDone = done;
+    public void setDone(String done) {
+        done = done;
     }
 
     public Clients getClientId() {

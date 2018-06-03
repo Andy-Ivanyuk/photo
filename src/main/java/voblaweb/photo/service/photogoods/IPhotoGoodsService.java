@@ -8,5 +8,6 @@ public interface IPhotoGoodsService {
     List<PhotoGoods> getAll();
     PhotoGoods insert(PhotoGoods photoGoods);
     PhotoGoods update(PhotoGoods photoGoods);
-    void deleteById(int id);
+    PhotoGoods getById(int id);
+    void delete(int id);
 }

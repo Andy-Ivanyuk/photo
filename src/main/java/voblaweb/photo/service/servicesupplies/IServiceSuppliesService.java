@@ -8,5 +8,6 @@ public interface IServiceSuppliesService {
     List<ServiceSupplies> getAll();
     ServiceSupplies insert(ServiceSupplies serviceSupplies);
     ServiceSupplies update(ServiceSupplies serviceSupplies);
-    void deleteById(int id);
+    ServiceSupplies getById(int id);
+    void delete(int id);
 }

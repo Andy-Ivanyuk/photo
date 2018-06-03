@@ -10,40 +10,40 @@ import javax.persistence.*;
 public class Services {
 
     @Id
-    @Column(name = "services_id")
-    private int serviceId;
-    private String serviceName;
-    private int servicePrice;
-
-    public Services(String serviceName, int servicePrice) {
-        this.serviceName = serviceName;
-        this.servicePrice = servicePrice;
-    }
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    private int price;
 
     public Services() {
     }
 
-    public int getServiceId() {
-        return serviceId;
+    public Services(String name, int price) {
+        this.name = name;
+        this.price = price;
     }
 
-    public void setServiceId(int serviceId) {
-        this.serviceId = serviceId;
+    public int getId() {
+        return id;
     }
 
-    public String getServiceName() {
-        return serviceName;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setServiceName(String serviceName) {
-        this.serviceName = serviceName;
+    public String getName() {
+        return name;
     }
 
-    public int getServicePrice() {
-        return servicePrice;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setServicePrice(int servicePrice) {
-        this.servicePrice = servicePrice;
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }

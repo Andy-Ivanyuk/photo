@@ -80,7 +80,7 @@ app.controller("AppCtrl", function ($http, $scope) {
             document.getElementById("PhotoGoodsUPD").selectedIndex=photoGoodsIndex;
         });
         var kiosksIndex;
-        $http.get('/api/branches').then(function (response){
+        $http.get('/api/kiosks').then(function (response){
             var kiosks = response.data;
             var selector = document.getElementById("KiosksUPD");
             $(selector).empty();
@@ -112,7 +112,7 @@ app.controller("AppCtrl", function ($http, $scope) {
         var price = document.getElementById("PriceUPD").value;
         var dateOfSelling = document.getElementById("DateOfSellingUPD").value;
 
-        $http.get('/api/office_orders/update?photoGoodId='+photoGoodId+'&kioskId='+kioskId+'&dateOfSupply='+dateOfSupply
+        $http.get('/api/office_orders/update?id='+thisId+'&photoGoodId='+photoGoodId+'&kioskId='+kioskId+'&dateOfSupply='+dateOfSupply
             +'&amountOfGoods='+amountOfGoods+'&price='+price+'&dateOfSelling='+dateOfSelling).then(function (response){
             window.location.reload();
         });

@@ -54,12 +54,12 @@ app.controller("AppCtrl", function ($http, $scope) {
 
         var option2_1 = document.createElement("option");
         option2_1.text = "Завершено";
-        option2_1.value = true;
+        option2_1.value = "Завершено";
         selector2.add(option2_1);
 
         var option2_2 = document.createElement("option");
         option2_2.text = "Не завершено";
-        option2_2.value = false;
+        option2_2.value = "Не завершено";
         selector2.add(option2_2);
 
         var selector3 = document.getElementById("Format");
@@ -93,14 +93,14 @@ app.controller("AppCtrl", function ($http, $scope) {
         var format = document.getElementById("Format").options[formatIndex].value;
         var paperType = document.getElementById("PaperType").value;
         var supplyDate = document.getElementById("SupplyDate").value;
-        var isDoneIndex = document.getElementById("IsDone").selectedIndex;
-        var isDone = document.getElementById("IsDone").options[isDoneIndex].value;
+        var doneIndex = document.getElementById("IsDone").selectedIndex;
+        var done = document.getElementById("IsDone").options[doneIndex].value;
         var clientsIndex = document.getElementById("Clients").selectedIndex;
         var clientId = document.getElementById("Clients").options[clientsIndex].value;
 
         $http.get('/api/supplies/insert?kioskId='+kioskId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
                 +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
-                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&isDone='+isDone+'&clientId='+clientId).then(function (response){
+                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='+clientId).then(function (response){
             window.location.reload();
             window.alert('Замовлення було успішно додано!');
         });
@@ -157,7 +157,7 @@ app.controller("AppCtrl", function ($http, $scope) {
                 var option = document.createElement("option");
                 option.text = clients[i].name;
                 option.value = clients[i].id;
-                if(clients[i].id === clientId)
+                if(clients[i].id == clientId)
                 {
                     clientsIndex = i;
 
@@ -173,15 +173,15 @@ app.controller("AppCtrl", function ($http, $scope) {
 
         var option2_1 = document.createElement("option");
         option2_1.text = "Завершено";
-        option2_1.value = true;
+        option2_1.value = "Завершено";
         selector2.add(option2_1);
 
         var option2_2 = document.createElement("option");
         option2_2.text = "Не завершено";
-        option2_2.value = false;
+        option2_2.value = "Не завершено";
         selector2.add(option2_2);
-        if(isDone) selector2.selectedIndex=0;
-        else selector2.selectedIndex=1;
+        if(isDone=="Не завершено") selector2.selectedIndex=1;
+        else selector2.selectedIndex=0;
 
 
         var selector3 = document.getElementById("FormatUPD");
@@ -228,14 +228,14 @@ app.controller("AppCtrl", function ($http, $scope) {
         var format = document.getElementById("FormatUPD").options[formatIndex].value;
         var paperType = document.getElementById("PaperTypeUPD").value;
         var supplyDate = document.getElementById("SupplyDateUPD").value;
-        var isDoneIndex = document.getElementById("IsDoneUPD").selectedIndex;
-        var isDone = document.getElementById("IsDoneUPD").options[isDoneIndex].value;
+        var doneIndex = document.getElementById("IsDoneUPD").selectedIndex;
+        var done = document.getElementById("IsDoneUPD").options[doneIndex].value;
         var clientsIndex = document.getElementById("ClientsUPD").selectedIndex;
         var clientId = document.getElementById("ClientsUPD").options[clientsIndex].value;
 
         $http.get('/api/supplies/update?id='+thisId+'&kioskId='+kioskId+'&typeOfSupplyId='+typeOfSupplyId+'&price='+price
                 +'&amountOfPhotosPerFrame='+amountOfPhotosPerFrame+'&totalAmountOfPhotos='+totalAmountOfPhotos
-                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&isDone='+isDone+'&clientId='
+                +'&format='+format+'&paperType='+paperType+'&supplyDate='+supplyDate+'&done='+done+'&clientId='
                 +clientId).then(function (response){
             window.location.reload();
         });
