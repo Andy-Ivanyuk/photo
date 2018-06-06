@@ -10,4 +10,5 @@ public interface IBranchesService {
     Branches update(Branches branches);
     Branches getById(int id);
     void delete(int id);
+    List<Branches> getBranchesByWorkplaces(int firstAmount, int lastAmount);
 }

@@ -62,4 +62,36 @@ public class SuppliesController {
     public void delete(@RequestParam int id){
         service.delete(id);
     }
+
+    /**QUERIES**/
+
+    @RequestMapping("/supplies/get_by_kiosk")
+    public List<Supplies> getSuppliesByKioskId(@RequestParam int id) {
+        return service.getSuppliesByKioskId(id);
+    }
+
+    @RequestMapping("/supplies/get_by_done")
+    public List<Supplies> getSuppliesByDone(@RequestParam String done) {
+        return service.getSuppliesByDone(done);
+    }
+
+    @RequestMapping("/supplies/get_by_client")
+    public List<Supplies> getSuppliesByClientId(@RequestParam int id) {
+        return service.getSuppliesByClientId(id);
+    }
+
+    @RequestMapping("/supplies/get_by_date")
+    public List<Supplies> getSuppliesByDate(@RequestParam Date firstDate, Date secondDate) {
+        return service.getSuppliesByDate(firstDate, secondDate);
+    }
+
+    @RequestMapping("/supplies/get_by_type")
+    public List<Supplies> getSuppliesByType(@RequestParam int id) {
+        return service.getSuppliesByType(id);
+    }
+
+    @RequestMapping("/supplies/get_by_total_amount")
+    public List<Supplies> getSuppliesByTotalAmount(@RequestParam int firstNumber, int secondNumber) {
+        return service.getSuppliesByTotalAmount(firstNumber, secondNumber);
+    }
 }

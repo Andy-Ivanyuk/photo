@@ -40,4 +40,9 @@ public class BranchesController {
     public void delete(@RequestParam int id){
         service.delete(id);
     }
+
+    @RequestMapping("/branches/get_by_workplaces")
+    public List<Branches> getBranchesByWorkplaces(@RequestParam int firstAmount, int lastAmount){
+        return service.getBranchesByWorkplaces(firstAmount, lastAmount);
+    }
 }

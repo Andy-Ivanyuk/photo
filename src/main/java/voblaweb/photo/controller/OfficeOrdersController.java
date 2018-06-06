@@ -53,4 +53,16 @@ public class OfficeOrdersController {
     public void delete(@RequestParam int id){
         service.delete(id);
     }
+
+    /**QUERIES**/
+
+    @RequestMapping("/office_orders/get_by_photo_good")
+    public List<OfficeOrders> getOfficeOrdersByPhotoGoodIdAndDate(@RequestParam int id, Date firstDate, Date secondDate) {
+        return service.getOfficeOrdersByPhotoGoodIdAndDate(id, firstDate, secondDate);
+    }
+
+//    @RequestMapping("/office_orders/get_by_date")
+//    public List<OfficeOrders> getOfficeOrdersByDate(@RequestParam Date firstDate, Date secondDate) {
+//        return service.getOfficeOrdersByDate(firstDate, secondDate);
+//    }
 }

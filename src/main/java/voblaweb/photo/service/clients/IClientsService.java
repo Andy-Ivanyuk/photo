@@ -10,4 +10,7 @@ public interface IClientsService {
     Clients update(Clients clients);
     Clients getById(int id);
     void delete(int id);
+    List<Clients> getClientsByBranchId(int id);
+    List<Clients> getClientsByType(String kType);
+    List<Clients> getClientsByDiscount(int kFirst, int kLast);
 }

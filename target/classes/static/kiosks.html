@@ -7,10 +7,35 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/sidebar.css">
 </head>
 
 <body ng-app = "photo">
 <div  ng-controller = "AppCtrl as ctrl" >
+	<div class="menu-container">
+		<div class="menu-s icon">
+			<div class="categories">
+				<div class="slider">
+					<button type="button" class="btn-side" onclick="window.location.href='branches.html'">Вітки</button>
+					<button type="button" class="btn-side" onclick="window.location.href='clients.html'">Клієнти</button>
+					<button type="button" class="btn-side" onclick="window.location.href='good_type.html'">Типи товару</button>
+					<button type="button" class="btn-side" onclick="window.location.href='hurry_supplies.html'">Термінові замовлення</button>
+					<button type="button" class="btn-side dis">Кіоски</button>
+					<button type="button" class="btn-side" onclick="window.location.href='office_orders.html'">Офісні замовлення</button>
+					<button type="button" class="btn-side" onclick="window.location.href='photo_goods.html'">Фототовари</button>
+					<button type="button" class="btn-side" onclick="window.location.href='service_supplies.html'">Сервісні замовлення</button>
+					<button type="button" class="btn-side" onclick="window.location.href='services.html'">Сервіси</button>
+					<button type="button" class="btn-side" onclick="window.location.href='supplies.html'">Замовлення</button>
+					<button type="button" class="btn-side" onclick="window.location.href='type_of_supplies.html'">Типи замовлень</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-button" onclick="window.location.href='index.html'" style="left: 64px">
+		<div class="menu-s home">
+			<a href="index.html"></a>
+		</div>
+	</div>
 	<h3>Кіоски</h3>
 	<div class="datagrid"><table id = "table">
 		<thead><tr>

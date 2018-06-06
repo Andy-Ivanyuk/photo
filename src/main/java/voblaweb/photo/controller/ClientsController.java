@@ -15,12 +15,12 @@ public class ClientsController {
     ClientsService service;
 
     @RequestMapping("/clients")
-    public List<Clients> getAll(){
+    public List<Clients> getAll() {
         return service.getAll();
     }
 
     @RequestMapping("/clients/get")
-    public Clients getById(@RequestParam int id){
+    public Clients getById(@RequestParam int id) {
         return service.getById(id);
     }
 
@@ -42,7 +42,22 @@ public class ClientsController {
     }
 
     @RequestMapping("/clients/del")
-    public void delete(@RequestParam int id){
+    public void delete(@RequestParam int id) {
         service.delete(id);
+    }
+
+    @RequestMapping("/clients/get_by_branch")
+    public List<Clients> getClientsByBranchId(@RequestParam int id) {
+        return service.getClientsByBranchId(id);
+    }
+
+    @RequestMapping("/clients/get_by_type")
+    public List<Clients> getClientsByType(@RequestParam String kType) {
+        return service.getClientsByType(kType);
+    }
+
+    @RequestMapping("/clients/get_by_discount")
+    public List<Clients> getClientsByDiscount(@RequestParam int kFirst, int kLast) {
+        return service.getClientsByDiscount(kFirst, kLast);
     }
 }

@@ -45,4 +45,14 @@ public class KiosksController {
     public void delete(@RequestParam int id){
         service.delete(id);
     }
+
+    @RequestMapping("/kiosks/get_by_branch")
+    public List<Kiosks> getKiosksByBranchId(@RequestParam int id){
+        return service.getKiosksByBranchId(id);
+    }
+
+    @RequestMapping("/kiosks/get_by_workplaces")
+    public List<Kiosks> getKiosksByWorkplaces(@RequestParam int firstAmount, int lastAmount){
+        return service.getKiosksByWorkplaces(firstAmount, lastAmount);
+    }
 }

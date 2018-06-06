@@ -10,4 +10,6 @@ public interface IKiosksService {
     Kiosks update(Kiosks kiosks);
     Kiosks getById(int id);
     void delete(int id);
+    List<Kiosks> getKiosksByBranchId(int id);
+    List<Kiosks> getKiosksByWorkplaces(int firstAmount, int lastAmount);
 }

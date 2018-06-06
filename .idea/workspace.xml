@@ -1,27 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="155c5e4a-33ff-4869-828d-df7ba12af1a0" name="Default" comment="almost the end(2)(not really)">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/hurrySupplies.js" />
+    <list default="true" id="155c5e4a-33ff-4869-828d-df7ba12af1a0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/good_type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/buttons.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/sidebar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/branches_by_workplaces.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/clients_by_branch_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/clients_by_discount.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/clients_by_type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_branch_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_client_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_date.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_total_amount.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_type_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/branches_by_workplaces.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/clients_by_branch_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/clients_by_discount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/clients_by_type.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_branch_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_client_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_date.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_done.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_total_amount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_type_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/kiosks_by_branch_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/kiosks_by_workplaces.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/office_orders_by_photo_good_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_client_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_date.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_done.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_kiosk_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_total_amount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_type_id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_branch_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_workplaces.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/office_orders_by_photo_good_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_client_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_date.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_kiosk_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_total_amount.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_type_id.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/src/head.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/test.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/BranchesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ClientsController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/KiosksController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/BranchesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/KiosksRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/KiosksRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/BranchesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/branches/IBranchesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/ClientsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/clients/IClientsService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/IKiosksService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/IKiosksService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/KiosksService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/kiosks/KiosksService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" afterPath="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/branches.html" afterPath="$PROJECT_DIR$/src/main/resources/static/branches.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/clients.html" afterPath="$PROJECT_DIR$/src/main/resources/static/clients.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/good_type.html" afterPath="$PROJECT_DIR$/src/main/resources/static/good_type.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/supplies.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/supplies.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/kiosks.html" afterPath="$PROJECT_DIR$/src/main/resources/static/kiosks.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/office_orders.html" afterPath="$PROJECT_DIR$/src/main/resources/static/office_orders.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/photo_goods.html" afterPath="$PROJECT_DIR$/src/main/resources/static/photo_goods.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/service_supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/service_supplies.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/services.html" afterPath="$PROJECT_DIR$/src/main/resources/static/services.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/supplies.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/tittle.html" afterPath="$PROJECT_DIR$/src/main/resources/static/tittle.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" afterPath="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/workers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/branches.html" afterPath="$PROJECT_DIR$/target/classes/static/branches.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/clients.html" afterPath="$PROJECT_DIR$/target/classes/static/clients.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/index.css" afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/good_type.html" afterPath="$PROJECT_DIR$/target/classes/static/good_type.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/hurry_supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/hurry_supplies.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/clients.js" afterPath="$PROJECT_DIR$/target/classes/static/js/clients.js" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/kiosks.html" afterPath="$PROJECT_DIR$/target/classes/static/kiosks.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/office_orders.html" afterPath="$PROJECT_DIR$/target/classes/static/office_orders.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/photo_goods.html" afterPath="$PROJECT_DIR$/target/classes/static/photo_goods.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/service_supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/service_supplies.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/services.html" afterPath="$PROJECT_DIR$/target/classes/static/services.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/supplies.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/tittle.html" afterPath="$PROJECT_DIR$/target/classes/static/tittle.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/type_of_supplies.html" afterPath="$PROJECT_DIR$/target/classes/static/type_of_supplies.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/workers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/BranchesController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/BranchesController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ClientsController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/ClientsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/KiosksController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/KiosksController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/SuppliesController.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/controller/SuppliesController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/HurrySupplies.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/model/HurrySupplies.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/BranchesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/BranchesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ClientsRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/ClientsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/HurrySuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/HurrySuppliesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/KiosksRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/KiosksRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/OfficeOrdersRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/OfficeOrdersRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/SuppliesRepository.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/repository/SuppliesRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/BranchesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/BranchesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/IBranchesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/branches/IBranchesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/ClientsService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/ClientsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/IClientsService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/clients/IClientsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/IKiosksService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/IKiosksService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/KiosksService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/kiosks/KiosksService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/IOfficeOrdersService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/IOfficeOrdersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/OfficeOrdersService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/officeorders/OfficeOrdersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/ISuppliesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/ISuppliesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/SuppliesService.class" afterPath="$PROJECT_DIR$/target/classes/voblaweb/photo/service/supplies/SuppliesService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,147 +150,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="supplies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/supplies.html">
+      <file leaf-file-name="office_orders_by_photo_good_id.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/office_orders_by_photo_good_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="163" column="67" lean-forward="false" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supplies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/supplies.js">
+      <file leaf-file-name="supplies_by_client_id.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_client_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="274" column="66" lean-forward="false" selection-start-line="274" selection-start-column="54" selection-end-line="274" selection-end-column="66" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hurry_supplies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html">
+      <file leaf-file-name="supplies_by_date.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_date.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="139" column="63" lean-forward="false" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OfficeOrders.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java">
+      <file leaf-file-name="supplies_by_done.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_done.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="office_orders.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/office_orders.html">
+      <file leaf-file-name="supplies_by_kiosk_id.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_kiosk_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hurrySupplies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hurrySupplies.js">
+      <file leaf-file-name="supplies_by_total_amount.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_total_amount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3571">
-              <caret line="113" column="58" lean-forward="false" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HurrySuppliesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java">
+      <file leaf-file-name="supplies_by_type_id.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_type_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="60" column="36" lean-forward="false" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service_supplies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/service_supplies.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="20">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuppliesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java">
+      <file leaf-file-name="hurry_supplies_by_type_id.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_type_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HurrySupplies.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java">
+      <file leaf-file-name="kiosks_by_branch_id.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_branch_id.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1664#1665#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1732#1733#0" expanded="true" />
-                <element signature="e#1782#1783#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
-                <element signature="e#2057#2058#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2204#2205#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2604#2605#0" expanded="true" />
-                <element signature="e#2637#2638#0" expanded="true" />
-                <element signature="e#2666#2667#0" expanded="true" />
-                <element signature="e#2710#2711#0" expanded="true" />
-                <element signature="e#2746#2747#0" expanded="true" />
-                <element signature="e#2782#2783#0" expanded="true" />
-                <element signature="e#2814#2815#0" expanded="true" />
-                <element signature="e#2864#2865#0" expanded="true" />
-                <element signature="e#2906#2907#0" expanded="true" />
-                <element signature="e#2941#2942#0" expanded="true" />
-                <element signature="e#2974#2975#0" expanded="true" />
-                <element signature="e#3024#3025#0" expanded="true" />
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3099#3100#0" expanded="true" />
-                <element signature="e#3126#3127#0" expanded="true" />
-                <element signature="e#3166#3167#0" expanded="true" />
-                <element signature="e#3198#3199#0" expanded="true" />
-                <element signature="e#3234#3235#0" expanded="true" />
-                <element signature="e#3265#3266#0" expanded="true" />
-                <element signature="e#3314#3315#0" expanded="true" />
-                <element signature="e#3354#3355#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="900">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kiosks_by_workplaces.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_workplaces.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,8 +258,9 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="FxmlFile" />
-        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -267,57 +324,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/TypeOfSupplies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/ITypeOfSuppliesServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/typeofsupplies/TypeOfSuppliesServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/TypeOfSuppliesController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/typeOfSupplies.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/index.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/test.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/branches.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/good_type.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/goodType.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Services.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/IServicesService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/services.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/services.js" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/ServiceSupplies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/IServiceSuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/serviceSupplies.js" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServiceSuppliesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/IPhotoGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/photoGoods.js" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/clients.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/clients.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/good_type.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/kiosks.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/office_orders.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/photo_goods.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/service_supplies.html" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/services.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/supplies.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_date.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_date.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_type_id.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_type_id.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_total_amount.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_total_amount.js" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/supplies.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/hurrySupplies.js" />
-        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/office_orders.html" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/js/office_orders_by_photo_good_id.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/sidebar.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/branches_by_workplaces.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/clients_by_branch_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/clients_by_discount.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/clients_by_type.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_branch_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_client_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_date.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_done.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_total_amount.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_type_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_branch_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_workplaces.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/office_orders_by_photo_good_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_client_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_date.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_done.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_kiosk_id.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_total_amount.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/query/supplies_by_type_id.html" />
       </list>
     </option>
   </component>
@@ -386,9 +443,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -516,47 +573,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="photo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="photogoods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="servicesupplies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="supplies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="typeofsupplies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="photo" type="b2602c69:ProjectViewProjectNode" />
@@ -591,11 +608,30 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,21 +651,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\query" />
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\query\js" />
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\src" />
       <recent name="D:\IntelliJProjects\2семестр\kursovaCrudRep\src\main\resources\static\js\requests" />
       <recent name="D:\IntelliJProjects\2семестр\kursovaCrudRep\src\main\resources\static\js" />
-      <recent name="D:\IntelliJProjects\2семестр\kursovaCrudRep\src\main\resources\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\query" />
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\query\js" />
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\css" />
+      <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static" />
       <recent name="D:\University\DB 2nd semester\DB labs\lab6 DB\photo\src\main\resources\static\js" />
-      <recent name="D:\University\DB 2nd semester\DB labs\lab4 DB\photo\src\main\resources" />
-      <recent name="D:\University\DB 2nd semester\DB labs\lab4 DB\photo\src\main\java\com\voblaweb\photo" />
-      <recent name="D:\IntelliJProjects\2семестр\kursovaCrudRep\src\main\java\osadchuk\roman\service\request" />
-      <recent name="D:\IntelliJProjects\2семестр\kursovaCrudRep\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -763,7 +802,15 @@
       <workItem from="1527748332356" duration="3076000" />
       <workItem from="1527871747364" duration="15233000" />
       <workItem from="1527948532016" duration="25249000" />
-      <workItem from="1527990567336" duration="1678000" />
+      <workItem from="1527990567336" duration="1985000" />
+      <workItem from="1528026393323" duration="33138000" />
+      <workItem from="1528093436256" duration="1649000" />
+      <workItem from="1528103240523" duration="5995000" />
+      <workItem from="1528109496885" duration="1510000" />
+      <workItem from="1528114920006" duration="5741000" />
+      <workItem from="1528137600859" duration="6657000" />
+      <workItem from="1528179265359" duration="2456000" />
+      <workItem from="1528265353269" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="created all crud methods for all tables using CrudRepository">
       <created>1525701307018</created>
@@ -821,11 +868,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527984633609</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="made it work.">
+      <created>1527992553327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527992553327</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193583000" />
+    <option name="totallyTimeSpent" value="251097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,17 +905,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3310811" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11891892" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.49598163" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1818766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16902314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -870,43 +923,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81962866" sideWeight="0.50401837" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3310811" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.49598163" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567567" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1818766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -926,7 +946,8 @@
     <MESSAGE value="worse one" />
     <MESSAGE value="almost the end" />
     <MESSAGE value="almost the end(2)(not really)" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost the end(2)(not really)" />
+    <MESSAGE value="made it work." />
+    <option name="LAST_COMMIT_MESSAGE" value="made it work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,496 +960,369 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/ServicesService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="80">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/GoodType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_type_id.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="380">
+          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Kiosks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/supplies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="17" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Clients.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ServiceSuppliesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/IServiceSuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServiceSuppliesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#1884#1885#0" expanded="false" />
-            <element signature="e#1918#1919#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Services.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/ServiceSupplies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#986#987#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1072#1073#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1166#1167#0" expanded="false" />
-            <element signature="e#1198#1199#0" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1262#1263#0" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
-            <element signature="e#1346#1347#0" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1416#1417#0" expanded="false" />
-            <element signature="e#1468#1469#0" expanded="false" />
-            <element signature="e#1510#1511#0" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-            <element signature="e#1577#1578#0" expanded="false" />
-            <element signature="e#1626#1627#0" expanded="false" />
-            <element signature="e#1666#1667#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/services/IServicesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/IPhotoGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/servicesupplies/ServiceSuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#770#771#0" expanded="false" />
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#831#832#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#929#930#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
-            <element signature="e#1000#1001#0" expanded="false" />
-            <element signature="e#1033#1034#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-            <element signature="e#1261#1262#0" expanded="false" />
-            <element signature="e#1309#1310#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/photogoods/PhotoGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="80">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_type_id.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/PhotoGoodsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/ClientsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/ServicesController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/supplies_by_total_amount.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1202#1203#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_total_amount.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2039#2040#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="269">
+          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/branches.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/HurrySuppliesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/services.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/branches.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/clients_by_type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
+        <state relative-caret-position="-240">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/good_type.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-65">
+          <caret line="28" column="137" lean-forward="false" selection-start-line="28" selection-start-column="137" selection-end-line="28" selection-end-column="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/PhotoGoods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/kiosks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="127" lean-forward="false" selection-start-line="32" selection-start-column="127" selection-end-line="32" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/tittle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/type_of_supplies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/photo_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/serviceSupplies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="57" column="89" lean-forward="false" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/photoGoods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="74" column="55" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/kiosks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-657">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/goodType.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/clients.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/typeOfSupplies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/IHurrySuppliesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/Supplies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/clients.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="34" column="100" lean-forward="false" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/supplies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="163" column="67" lean-forward="false" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/supplies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="274" column="66" lean-forward="false" selection-start-line="274" selection-start-column="54" selection-end-line="274" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/service_supplies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/hurrySupplies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3571">
-          <caret line="113" column="58" lean-forward="false" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/HurrySuppliesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="60" column="36" lean-forward="false" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/HurrySupplies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2604#2605#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-            <element signature="e#2666#2667#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2782#2783#0" expanded="true" />
-            <element signature="e#2814#2815#0" expanded="true" />
-            <element signature="e#2864#2865#0" expanded="true" />
-            <element signature="e#2906#2907#0" expanded="true" />
-            <element signature="e#2941#2942#0" expanded="true" />
-            <element signature="e#2974#2975#0" expanded="true" />
-            <element signature="e#3024#3025#0" expanded="true" />
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3099#3100#0" expanded="true" />
-            <element signature="e#3126#3127#0" expanded="true" />
-            <element signature="e#3166#3167#0" expanded="true" />
-            <element signature="e#3198#3199#0" expanded="true" />
-            <element signature="e#3234#3235#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
-            <element signature="e#3314#3315#0" expanded="true" />
-            <element signature="e#3354#3355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/hurry_supplies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="139" column="63" lean-forward="false" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="280">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/model/OfficeOrders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="280">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/SuppliesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="62" lean-forward="true" selection-start-line="20" selection-start-column="62" selection-end-line="23" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/SuppliesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/ISuppliesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/supplies/SuppliesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="67" column="87" lean-forward="true" selection-start-line="67" selection-start-column="87" selection-end-line="68" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/office_orders.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="84" column="72" lean-forward="false" selection-start-line="84" selection-start-column="72" selection-end-line="84" selection-end-column="72" />
+        <state relative-caret-position="300">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/officeOrders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="47" column="83" lean-forward="true" selection-start-line="47" selection-start-column="83" selection-end-line="48" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/repository/OfficeOrdersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/IOfficeOrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="100" lean-forward="true" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/hurrysupplies/HurrySuppliesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/hurry_supplies_by_date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/service/officeorders/OfficeOrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/voblaweb/photo/controller/OfficeOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/office_orders_by_photo_good_id.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/branches_by_workplaces.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/js/clients_by_discount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/branches.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="95" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/branches_by_workplaces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/clients_by_branch_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/clients_by_discount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/clients_by_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_branch_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_client_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_total_amount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/office_orders_by_photo_good_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_client_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_kiosk_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_total_amount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/hurry_supplies_by_type_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_branch_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/kiosks_by_workplaces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/query/supplies_by_type_id.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>

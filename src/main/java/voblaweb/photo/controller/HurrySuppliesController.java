@@ -62,4 +62,36 @@ public class HurrySuppliesController {
     public void delete(@RequestParam int id){
         service.delete(id);
     }
+
+    /**QUERIES**/
+
+    @RequestMapping("/hurry_supplies/get_by_branch")
+    public List<HurrySupplies> getHurrySuppliesByBranchId(@RequestParam int id) {
+        return service.getHurrySuppliesByBranchId(id);
+    }
+
+    @RequestMapping("/hurry_supplies/get_by_done")
+    public List<HurrySupplies> getHurrySuppliesByDone(@RequestParam String done) {
+        return service.getHurrySuppliesByDone(done);
+    }
+
+    @RequestMapping("/hurry_supplies/get_by_client")
+    public List<HurrySupplies> getHurrySuppliesByClientId(@RequestParam int id) {
+        return service.getHurrySuppliesByClientId(id);
+    }
+
+    @RequestMapping("/hurry_supplies/get_by_date")
+    public List<HurrySupplies> getSuppliesByDate(@RequestParam Date firstDate, Date secondDate) {
+        return service.getHurrySuppliesByDate(firstDate, secondDate);
+    }
+
+    @RequestMapping("/hurry_supplies/get_by_type")
+    public List<HurrySupplies> getHurrySuppliesByType(@RequestParam int id) {
+        return service.getHurrySuppliesByType(id);
+    }
+
+    @RequestMapping("/hurry_supplies/get_by_total_amount")
+    public List<HurrySupplies> getHurrySuppliesByTotalAmount(@RequestParam int firstNumber, int secondNumber) {
+        return service.getHurrySuppliesByTotalAmount(firstNumber, secondNumber);
+    }
 }

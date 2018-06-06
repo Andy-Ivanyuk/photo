@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import voblaweb.photo.repository.HurrySuppliesRepository;
 import voblaweb.photo.service.hurrysupplies.IHurrySuppliesService;
 
+import java.sql.Date;
 import java.util.List;
 
 @Service
@@ -37,5 +38,35 @@ public class HurrySuppliesService implements IHurrySuppliesService {
     @Override
     public void delete(int id) {
         repository.deleteById(id);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByBranchId(int id) {
+        return repository.getHurrySuppliesByBranchId(id);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByDone(String done) {
+        return repository.getHurrySuppliesByDone(done);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByClientId(int id) {
+        return repository.getHurrySuppliesByClientId(id);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByDate(Date firstDate, Date secondDate) {
+        return repository.getHurrySuppliesByDate(firstDate, secondDate);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByType(int id) {
+        return repository.getHurrySuppliesByType(id);
+    }
+
+    @Override
+    public List<HurrySupplies> getHurrySuppliesByTotalAmount(int firstNumber, int secondNumber) {
+        return repository.getHurrySuppliesByTotalAmount(firstNumber, secondNumber);
     }
 }

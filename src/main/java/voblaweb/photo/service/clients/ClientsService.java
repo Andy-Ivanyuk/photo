@@ -37,4 +37,19 @@ public class ClientsService implements IClientsService {
     public void delete(int id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Clients> getClientsByBranchId(int id) {
+        return repository.getClientsByBranchId(id);
+    }
+
+    @Override
+    public List<Clients> getClientsByType(String kType) {
+        return repository.getClientsByType(kType);
+    }
+
+    @Override
+    public List<Clients> getClientsByDiscount(int kFirst, int kLast) {
+        return repository.getClientsByDiscount(kFirst, kLast);
+    }
 }

@@ -37,4 +37,9 @@ public class BranchesService implements IBranchesService {
     public void delete(int id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Branches> getBranchesByWorkplaces(int firstAmount, int lastAmount) {
+        return repository.getBranchesByWorkplaces(firstAmount, lastAmount);
+    }
 }

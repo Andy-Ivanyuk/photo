@@ -37,4 +37,13 @@ public class KiosksService implements IKiosksService {
     public void delete(int id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Kiosks> getKiosksByBranchId(int id) {
+        return repository.getKiosksByBranchId(id);
+    }
+    @Override
+    public List<Kiosks> getKiosksByWorkplaces(int firstAmount, int lastAmount) {
+        return repository.getKiosksByWorkplaces(firstAmount, lastAmount);
+    }
 }
